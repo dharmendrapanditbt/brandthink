@@ -88,6 +88,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
+        <meta name="google-site-verification" content="nI0TddYUZly_iSURipKMF1KNsC6yNlQ9t-LjhVtrDho" />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WDXP0WKFG"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3WDXP0WKFG');
+`,
+          }}
+        />
       </head>
       <body className={`${bebas.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}>
         <MainSiteWrapper>{children}</MainSiteWrapper>
