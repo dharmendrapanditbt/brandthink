@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
-const SITE_URL = "https://brandthink.co.in";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://thebrandthink.com";
 
 export default function robots(): MetadataRoute.Robots {
   return {

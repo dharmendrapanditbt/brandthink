@@ -3,7 +3,7 @@ import caseStudies from "@/content/caseStudies.json";
 
 export const dynamic = "force-static";
 
-const SITE_URL = "https://brandthink.co.in";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://thebrandthink.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

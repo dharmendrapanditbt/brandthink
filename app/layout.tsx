@@ -4,7 +4,7 @@ import siteInfo from "@/content/siteInfo.json";
 import MainSiteWrapper from "@/components/ui/MainSiteWrapper";
 import './globals.css';
 
-const SITE_URL = "https://brandthink.co.in";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://thebrandthink.com";
 const SITE_DESCRIPTION =
   "BrandThink helps modern brands build attention, distribution, and conversion systems using strategy, AI, content, creators, and performance marketing.";
 
