@@ -272,12 +272,16 @@ button:hover .hover-flip-char {
 /* Only take over the cursor on devices that actually have a mouse —
    touch devices keep the native (nonexistent) cursor behavior untouched. */
 @media (hover: hover) and (pointer: fine) {
-
+  html,
   body,
+  body *,
   a,
   button,
+  input,
+  textarea,
+  select,
   [role="button"] {
-    cursor: none;
+    cursor: none !important;
   }
 }
 
