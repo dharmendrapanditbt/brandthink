@@ -1,0 +1,265 @@
+{
+  "eyebrow": "Blog → Field Notes",
+  "heading": {
+    "line1": "Beyond The",
+    "highlight": "Playbook."
+  },
+  "intro": "The marketing landscape keeps moving. Here, we explore the thinking, technology and changing behaviours that are rewriting the rules of modern marketing.",
+  "featured": {
+    "category": "Performance",
+    "categoryColor": "#E8000E",
+    "readTime": "8 min read",
+    "title": "Why Your CAC Keeps Rising (And Why More Budget Won't Fix It)",
+    "excerpt": "Rising acquisition cost is almost never a bidding problem. It is a system problem that shows up on the invoice last, after the creative, the offer, and the landing experience have already stopped pulling their weight.",
+    "date": "6 Sept 2026",
+    "slug": "why-your-cac-keeps-rising",
+    "image": "/placeholder-blog-featured.svg",
+    "author": {
+      "name": "Dharmendra Pandit",
+      "role": "Founder & Head of Strategy",
+      "avatar": "/icon.png"
+    },
+    "sections": [
+      {
+        "type": "paragraph",
+        "text": "Every performance marketing team hits the same wall: campaign performance starts strong, scale increases, and suddenly customer acquisition cost (CAC) doubles over three quarters while efficiency metrics crumble."
+      },
+      {
+        "type": "heading",
+        "text": "The Bidding Delusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "When CAC shoots up, the first reaction is to audit ad accounts, swap bidding strategies, or blame Meta and Google algorithmic shifts. But ad platforms are simply real-time auctions reflecting buyer friction. If your offer loses relevance or your landing page fails to convert high-intent traffic, the algorithm penalizes your CPM."
+      },
+      {
+        "type": "quote",
+        "text": "Rising CAC is the tax you pay when your brand narrative and product offer stop compounding ahead of your media spend.",
+        "author": "BrandThink Performance Memorandum"
+      },
+      {
+        "type": "heading",
+        "text": "The Three Friction Leakages"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Ad Creative Saturation: Running identical hooks to overlapping custom audiences without vertical variation.",
+          "Landing Page Misalignment: Delivering high-intent traffic to generic homepages instead of dedicated, contextual conversion flows.",
+          "Post-Click Inertia: Lacking immediate value signals within the first 3 seconds of page load."
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "The System Remedy",
+        "text": "Before increasing your ad budget by 20%, audit your post-click conversion loop. A 15% increase in landing page conversion yields a far lower effective CAC than doubling ad bid caps."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fixing CAC requires treating growth as an integrated engine: creative, messaging, web experience, and retargeting logic must move in complete lockstep."
+      }
+    ]
+  },
+  "categories": [
+    { "label": "Technology", "color": "#2dd4ff", "slug": "technology" },
+    { "label": "Strategy", "color": "#E8000E", "slug": "strategy" },
+    { "label": "Content", "color": "#4ade80", "slug": "content" },
+    { "label": "Creators", "color": "#fbbf24", "slug": "creators" },
+    { "label": "Measurement", "color": "#a78bfa", "slug": "measurement" }
+  ],
+  "posts": [
+    {
+      "category": "Technology",
+      "categoryColor": "#2dd4ff",
+      "readTime": "6 min read",
+      "title": "Where AI Actually Belongs In A Marketing Workflow",
+      "excerpt": "The teams getting real leverage from AI are not the ones generating the most content. They are the ones who create a systematic data research, structuring, and quality control where the communicating actually happens.",
+      "date": "20 Aug 2026",
+      "slug": "where-ai-belongs-in-marketing",
+      "image": "/placeholder-blog-1.svg",
+      "author": {
+        "name": "Alex Rivera",
+        "role": "Lead Creative Technologist",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "AI generation is easy; strategic integration is hard. Most teams misuse generative AI by churning out volume without intent, creating generic noise that dilutes brand authority."
+        },
+        {
+          "type": "heading",
+          "text": "Data Synthesis vs Creative Output"
+        },
+        {
+          "type": "paragraph",
+          "text": "The true superpower of LLMs in marketing lies in pre-production research: mining customer reviews, summarizing competitor positioning gaps, and structuring modular campaign briefs in minutes."
+        },
+        {
+          "type": "callout",
+          "title": "Rule of Thumb",
+          "text": "Use AI to compress research cycles from weeks to hours, but rely on human strategic design to craft final campaign narratives."
+        },
+        {
+          "type": "paragraph",
+          "text": "When AI acts as a research partner rather than an automated copywriter, your output quality scales exponentially without losing authenticity."
+        }
+      ]
+    },
+    {
+      "category": "Strategy",
+      "categoryColor": "#E8000E",
+      "readTime": "8 min read",
+      "title": "Brand Vs Performance Is A False Choice Your P&L Invented",
+      "excerpt": "The split exists because the two cost measures run on different clocks and different people. The buyer never experienced them as separate and the marketplace is stopped distinguishing them years ago.",
+      "date": "21 Aug 2026",
+      "slug": "brand-vs-performance-false-choice",
+      "image": "/placeholder-blog-2.svg",
+      "author": {
+        "name": "Dharmendra Pandit",
+        "role": "Founder & Head of Strategy",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Modern marketing departments operate in silos: brand teams manage sentiment and storytelling, while performance teams manage ROAS and conversion rates. Consumers don't care about your internal org chart."
+        },
+        {
+          "type": "heading",
+          "text": "Brand Creates Demand; Performance Captures It"
+        },
+        {
+          "type": "paragraph",
+          "text": "Without brand affinity, performance marketing quickly degrades into discounting and aggressive retargeting. Conversely, brand storytelling without clear performance mechanisms wastes capital."
+        },
+        {
+          "type": "quote",
+          "text": "Performance ads sell the next transaction; brand systems secure the next decade of transactions.",
+          "author": "BrandThink Strategy Report"
+        },
+        {
+          "type": "paragraph",
+          "text": "Combining high-aesthetic brand storytelling into performance ad formats creates 'Brandformance'—ads that look like cinema but convert like direct response."
+        }
+      ]
+    },
+    {
+      "category": "Content",
+      "categoryColor": "#4ade80",
+      "readTime": "5 min read",
+      "title": "Stop Producing More Content. Start Distributing The Content You Have.",
+      "excerpt": "Most brands are sitting on a library that could survive the platform shift if its architecture, audience, and three degrees to the performance is a platform play.",
+      "date": "12 Aug 2026",
+      "slug": "stop-producing-start-distributing",
+      "image": "/placeholder-blog-3.svg",
+      "author": {
+        "name": "Sarah Chen",
+        "role": "Head of Content Architecture",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "The content treadmill is killing brand quality. Marketing teams burn out producing daily posts that get buried by platform algorithms within 48 hours."
+        },
+        {
+          "type": "heading",
+          "text": "The Content Repurposing Matrix"
+        },
+        {
+          "type": "paragraph",
+          "text": "A single flagship case study or research whitepaper contains enough insight to power 30 distinct content touchpoints across LinkedIn, X, video snippets, and newsletter editions."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deconstruct long-form research into modular key takeaways.",
+            "Reframe core concepts into visual infographics and slide carousels.",
+            "Repackage performance insights into interactive tools and calculators."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Distribution mastery beats content overproduction every single time."
+        }
+      ]
+    },
+    {
+      "category": "Creators",
+      "categoryColor": "#fbbf24",
+      "readTime": "7 min read",
+      "title": "Creator Partnerships That Compound Instead Of Spike",
+      "excerpt": "One-off creative activations buy a spike and a screenshot. The brands building durable advantages are running twelve-month relationships with five creators instead of one month campaigns with fifty.",
+      "date": "4 Aug 2026",
+      "slug": "creator-partnerships-that-compound",
+      "image": "/placeholder-blog-4.svg",
+      "author": {
+        "name": "Marcus Vance",
+        "role": "Creator Lead",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Transactional influencer marketing is broken. One-off sponsored posts feel artificial and yield diminishing returns as audiences spot obvious pitch scripts."
+        },
+        {
+          "type": "heading",
+          "text": "From Influencers to Strategic Co-Creators"
+        },
+        {
+          "type": "paragraph",
+          "text": "Long-term partnerships allow creators to integrate your product into their natural workflow over months. Audience trust builds through repeated organic exposure."
+        },
+        {
+          "type": "callout",
+          "title": "Key Metric",
+          "text": "Track repeat viewer conversion over 90-day creator retention windows rather than single-post impression counts."
+        }
+      ]
+    },
+    {
+      "category": "Measurement",
+      "categoryColor": "#a78bfa",
+      "readTime": "7 min read",
+      "title": "Building A Measurement Stack That Survives The Next Privacy Change",
+      "excerpt": "Every eighteen months a platform changes breaks conventions architecture and a quarter of reporting, becoming friction. The stacks that survive were never dependent on any single source of truth.",
+      "date": "26 Jul 2026",
+      "slug": "measurement-stack-privacy-change",
+      "image": "/placeholder-blog-5.svg",
+      "author": {
+        "name": "Elena Rostova",
+        "role": "Analytics & Data Director",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Third-party cookies are fading, ad platform attribution models remain self-serving, and privacy regulations are tightening globally. Relying on last-click ad manager numbers is financial gamble."
+        },
+        {
+          "type": "heading",
+          "text": "Triangulated Marketing Measurement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durable growth systems rely on a three-tier attribution framework: Marketing Mix Modeling (MMM), Media Lift Experiments, and First-Party Server-Side Tracking."
+        },
+        {
+          "type": "quote",
+          "text": "If your attribution breaks when Safari updates privacy settings, you never had true measurement—you had platform reporting.",
+          "author": "BrandThink Data Directive"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": {
+      "line1": "Ready To Make",
+      "highlight": "Your Stack Work Together?"
+    },
+    "paragraph": "Bring us the complexity. We'll help turn disconnected platforms, data and workflows into a MarTech system built around your business.",
+    "buttonLabel": "Book Your Strategy Call →"
+  }
+}

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import { getLenisInstance } from "@/lib/lenis";
 
 const SPARK_SIZE = 120;
 const CLOSE_MS = 450;
@@ -303,6 +304,12 @@ export default function PageTransition({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (phase !== "closed") return;
+
+    const lenis = getLenisInstance();
+    if (lenis) {
+      lenis.scrollTo(0, { immediate: true });
+    }
+    window.scrollTo(0, 0);
 
     const target = pendingHref.current;
     const arrived = !target || normalizePath(target) === pathname;

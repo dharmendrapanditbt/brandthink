@@ -30,13 +30,12 @@ export default function CustomCursor() {
   }, []);
 
   useEffect(() => {
-    if (!enabled) return;
-
     let mouseX = window.innerWidth / 2;
     let mouseY = window.innerHeight / 2;
     let ringX = mouseX;
     let ringY = mouseY;
     let frameId: number;
+    let isHovered = false;
 
     const handleMouseMove = (e: MouseEvent) => {
       mouseX = e.clientX;
@@ -45,14 +44,23 @@ export default function CustomCursor() {
         "transform",
         `translate(${mouseX}px, ${mouseY}px) translate(-50%, -50%)`
       );
+
+      const target = e.target as HTMLElement | null;
+      if (target) {
+        const interactive = !!target.closest(
+          'a, button, [role="button"], input, textarea, select, .cursor-pointer, [data-cursor-hover]'
+        );
+        isHovered = interactive;
+      }
     };
 
     const tick = () => {
       ringX += (mouseX - ringX) * RING_EASE;
       ringY += (mouseY - ringY) * RING_EASE;
-      const transform = `translate(${ringX}px, ${ringY}px) translate(-50%, -50%)`;
-      ringRef.current?.style.setProperty("transform", transform);
-      textRef.current?.style.setProperty("transform", transform);
+      const scale = isHovered ? "scale(1.4)" : "scale(1)";
+      const transform = `translate(${ringX}px, ${ringY}px) translate(-50%, -50%) ${scale}`;
+      if (ringRef.current) ringRef.current.style.transform = transform;
+      if (textRef.current) textRef.current.style.transform = transform;
       frameId = requestAnimationFrame(tick);
     };
 

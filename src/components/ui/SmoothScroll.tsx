@@ -32,33 +32,59 @@ export default function SmoothScroll() {
   // force a ScrollTrigger refresh right before scrolling, and scroll twice
   // — once early, once again once things have definitely settled — so the
   // final position is always correct even if the first attempt undershoots.
+  // Disable browser automatic scroll position restoration on back/forward
+  useEffect(() => {
+    if (typeof window !== "undefined" && "scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+  }, []);
+
+  // Handles anchor links as well as scrolling to the top on new page navigation
   useEffect(() => {
     const hash = window.location.hash;
-    if (!hash) return;
+    if (hash) {
+      const id = hash.slice(1);
 
-    const id = hash.slice(1);
+      const scrollToTarget = () => {
+        const el = document.getElementById(id);
+        if (!el) return;
 
-    const scrollToTarget = () => {
-      const el = document.getElementById(id);
-      if (!el) return;
+        ScrollTrigger.refresh();
 
-      ScrollTrigger.refresh();
+        const lenis = getLenisInstance();
+        if (lenis) {
+          lenis.scrollTo(el, { offset: SCROLL_OFFSET, immediate: false });
+        } else {
+          el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      };
 
-      const lenis = getLenisInstance();
-      if (lenis) {
-        lenis.scrollTo(el, { offset: SCROLL_OFFSET, immediate: false });
-      } else {
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    };
+      const early = setTimeout(scrollToTarget, 250);
+      const settled = setTimeout(scrollToTarget, 900);
 
-    const early = setTimeout(scrollToTarget, 250);
-    const settled = setTimeout(scrollToTarget, 900);
+      return () => {
+        clearTimeout(early);
+        clearTimeout(settled);
+      };
+    } else {
+      // Force scroll position to the top when navigating or pressing back/forward
+      const resetScroll = () => {
+        const lenis = getLenisInstance();
+        if (lenis) {
+          lenis.scrollTo(0, { immediate: true });
+        }
+        window.scrollTo(0, 0);
+      };
 
-    return () => {
-      clearTimeout(early);
-      clearTimeout(settled);
-    };
+      resetScroll();
+      const earlyReset = setTimeout(resetScroll, 50);
+      const settledReset = setTimeout(resetScroll, 300);
+
+      return () => {
+        clearTimeout(earlyReset);
+        clearTimeout(settledReset);
+      };
+    }
   }, [pathname]);
 
   useEffect(() => {
