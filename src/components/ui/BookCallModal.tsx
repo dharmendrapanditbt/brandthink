@@ -11,6 +11,7 @@ import {
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import HoverFlipText from "@/components/ui/HoverFlipText";
+import { getLenisInstance } from "@/lib/lenis";
 
 const BookCallModalContext = createContext<{ open: () => void } | null>(null);
 
@@ -42,11 +43,28 @@ export function BookCallModalProvider({ children }: { children: ReactNode }) {
     };
 
     document.addEventListener("keydown", handleKeyDown);
+
+    // Stop Lenis virtual smooth scrolling
+    const lenis = getLenisInstance();
+    lenis?.stop();
+
+    // Lock background in place with position: fixed
+    const scrollY = window.scrollY;
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = "100%";
     document.body.style.overflow = "hidden";
 
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
+
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.width = "";
       document.body.style.overflow = "";
+
+      window.scrollTo(0, scrollY);
+      lenis?.start();
     };
   }, [isOpen]);
 
@@ -94,7 +112,8 @@ export function BookCallModalProvider({ children }: { children: ReactNode }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm overscroll-contain"
+            data-lenis-prevent
             onClick={close}
           >
             <motion.div
@@ -106,7 +125,8 @@ export function BookCallModalProvider({ children }: { children: ReactNode }) {
               aria-modal="true"
               aria-labelledby="book-call-heading"
               onClick={(e) => e.stopPropagation()}
-              className="relative max-h-[90vh] w-full max-w-lg overflow-y-auto border border-grey-1 bg-grey-2 p-8 md:p-10"
+              data-lenis-prevent
+              className="relative max-h-[calc(100dvh-2rem)] sm:max-h-[90vh] w-full max-w-lg overflow-y-auto overscroll-contain border border-grey-1 bg-grey-2 p-8 md:p-10 shadow-2xl custom-scrollbar"
             >
               <button
                 type="button"
