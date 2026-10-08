@@ -20,6 +20,8 @@ interface Section {
   title?: string;
   author?: string;
   items?: string[];
+  headers?: string[];
+  rows?: string[][];
 }
 
 export interface BlogPostData {
@@ -27,6 +29,8 @@ export interface BlogPostData {
   categoryColor: string;
   readTime: string;
   title: string;
+  metaTitle?: string;
+  metaDescription?: string;
   excerpt: string;
   date: string;
   slug: string;
@@ -95,14 +99,9 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
         </div>
 
         {/* Title */}
-        <h1 className="bebas mb-6 text-3xl uppercase text-white sm:text-5xl md:text-6xl leading-[1.05]">
+        <h1 className="bebas mb-8 text-3xl uppercase text-white sm:text-5xl md:text-6xl leading-[1.05]">
           {post.title}
         </h1>
-
-        {/* Subtitle / Excerpt */}
-        <p className="text-base text-light-grey sm:text-xl leading-relaxed mb-8">
-          {post.excerpt}
-        </p>
 
         {/* Company & Date Bar */}
         <div className="flex flex-wrap items-center justify-between gap-4 border-y border-grey-1 py-4 text-xs">
@@ -195,6 +194,32 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
                       </li>
                     ))}
                   </ul>
+                );
+              }
+              if (section.type === "table" && section.rows) {
+                return (
+                  <div key={idx} className="my-8 overflow-x-auto border border-grey-1 bg-grey-2">
+                    <table className="w-full text-left text-sm text-light-grey">
+                      {section.headers && (
+                        <thead className="border-b border-grey-1 bg-off-grey text-xs uppercase text-white font-mono">
+                          <tr>
+                            {section.headers.map((h, hIdx) => (
+                              <th key={hIdx} className="px-6 py-4">{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                      )}
+                      <tbody className="divide-y divide-grey-1">
+                        {section.rows.map((row, rIdx) => (
+                          <tr key={rIdx} className="hover:bg-off-grey/50 transition-colors">
+                            {row.map((cell, cIdx) => (
+                              <td key={cIdx} className="px-6 py-4">{cell}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 );
               }
               // Default paragraph
