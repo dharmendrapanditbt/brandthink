@@ -224,6 +224,7 @@ export function BlogGrid() {
   useEffect(() => {
     if (!gridRef.current) return;
     const cards = gridRef.current.querySelectorAll(".blog-card");
+    if (cards.length === 0) return;
 
     gsap.fromTo(
       cards,
