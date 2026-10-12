@@ -11,7 +11,7 @@ const SITE_DESCRIPTION =
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "BrandThink — Growth Systems for Modern Brands",
+    default: "BrandThink | Growth Systems for Modern Brands and Businesses",
     template: "%s | BrandThink",
   },
   description: SITE_DESCRIPTION,
@@ -46,14 +46,14 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL,
     siteName: "BrandThink",
-    title: "BrandThink — Growth Systems for Modern Brands",
+    title: "BrandThink | Growth Systems for Modern Brands and Businesses",
     description: SITE_DESCRIPTION,
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "BrandThink" }],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "BrandThink — Growth Systems for Modern Brands",
+    title: "BrandThink | Growth Systems for Modern Brands and Businesses",
     description: SITE_DESCRIPTION,
     images: ["/og-image.jpg"],
   },
