@@ -44,6 +44,36 @@ interface BlogPostClientProps {
   relatedPosts: BlogPostData[];
 }
 
+function renderFormattedText(text?: string) {
+  if (!text) return null;
+  // Splits by **bold** or <strong>...</strong> or <b>...</b>
+  const parts = text.split(/(\*\*.*?\*\*|<strong>.*?<\/strong>|<b>.*?<\/b>)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return (
+        <strong key={i} className="font-bold text-white">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    if (part.startsWith("<strong>") && part.endsWith("</strong>")) {
+      return (
+        <strong key={i} className="font-bold text-white">
+          {part.slice(8, -9)}
+        </strong>
+      );
+    }
+    if (part.startsWith("<b>") && part.endsWith("</b>")) {
+      return (
+        <strong key={i} className="font-bold text-white">
+          {part.slice(3, -4)}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
+
 export default function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -154,6 +184,16 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
                   </h2>
                 );
               }
+              if (section.type === "subheading") {
+                return (
+                  <h3
+                    key={idx}
+                    className="mt-8 mb-3 text-xl font-bold text-white sm:text-2xl"
+                  >
+                    {renderFormattedText(section.text)}
+                  </h3>
+                );
+              }
               if (section.type === "quote") {
                 return (
                   <blockquote
@@ -190,7 +230,7 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
                     {section.items.map((item, itemIdx) => (
                       <li key={itemIdx} className="flex items-start gap-3">
                         <span className="text-bt-red font-mono font-bold mt-1">→</span>
-                        <span>{item}</span>
+                        <span>{renderFormattedText(item)}</span>
                       </li>
                     ))}
                   </ul>
@@ -213,7 +253,7 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
                         {section.rows.map((row, rIdx) => (
                           <tr key={rIdx} className="hover:bg-off-grey/50 transition-colors">
                             {row.map((cell, cIdx) => (
-                              <td key={cIdx} className="px-6 py-4">{cell}</td>
+                              <td key={cIdx} className="px-6 py-4">{renderFormattedText(cell)}</td>
                             ))}
                           </tr>
                         ))}
@@ -223,10 +263,10 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
                 );
               }
               // Default paragraph
-              return <p key={idx}>{section.text}</p>;
+              return <p key={idx}>{renderFormattedText(section.text)}</p>;
             })
           ) : (
-            <p>{post.excerpt}</p>
+            <p>{renderFormattedText(post.excerpt)}</p>
           )}
         </div>
 
