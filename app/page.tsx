@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import HeroSection from "@/components/sections/HeroSection";
-import SplashCursor from "@/components/ui/LazySplashCursor";
 import Problem from "@/components/sections/Problem";
 import Technology from "@/components/sections/Technology";
 import Methodology from "@/components/sections/Methodology";
@@ -15,11 +14,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <SplashCursor
-        RAINBOW_MODE={false}
-        COLOR="#E8000E"
-        Z_INDEX={1}
-      />
       <HeroSection />
       <Clients />
       {/* <ShowReel /> */}

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import CaseStudiesCTA from "@/components/sections/CaseStudiesCTA";
 import TeamDice from "@/components/sections/TeamDice";
-import SplashCursor from "@/components/ui/LazySplashCursor";
 import aboutContent from "@/content/about-page.json";
 import content from "@/content/team.json";
 
@@ -21,17 +20,6 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <SplashCursor
-        RAINBOW_MODE={false}
-        COLOR="#460000"
-        CURL={1}
-        SPLAT_RADIUS={0.2}
-        SPLAT_FORCE={8000}
-        DENSITY_DISSIPATION={1}
-        VELOCITY_DISSIPATION={10}
-        SHADING={true}
-        Z_INDEX={1}
-      />
       <section className="bg-dark-grey pb-16 pt-40">
         <div className="mx-auto flex flex-col items-center border-b border-grey-1 px-6 pb-8 text-center md:px-12 lg:px-20">
           <p

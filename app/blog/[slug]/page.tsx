@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import SplashCursor from "@/components/ui/LazySplashCursor";
 import BlogPostClient, { BlogPostData } from "@/components/sections/BlogPostClient";
 import blogData from "@/content/blog.json";
 
@@ -108,7 +107,6 @@ export default async function BlogPostPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <SplashCursor RAINBOW_MODE={false} COLOR="#E8000E" Z_INDEX={1} />
       <BlogPostClient post={post} relatedPosts={relatedPosts} />
     </>
   );

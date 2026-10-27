@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import SplashCursor from "@/components/ui/LazySplashCursor";
 import {
   BlogHero,
   BlogFeatured,
@@ -23,11 +22,6 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   return (
     <>
-      <SplashCursor
-        RAINBOW_MODE={false}
-        COLOR="#E8000E"
-        Z_INDEX={1}
-      />
       <BlogHero />
       <BlogFeatured />
       <BlogGrid />

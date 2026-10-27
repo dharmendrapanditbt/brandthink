@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CaseStudiesCTA from "@/components/sections/CaseStudiesCTA";
 import ServicesShowcase from "@/components/sections/ServicesShowcase";
-import SplashCursor from "@/components/ui/LazySplashCursor";
 import HoverFlipText from "@/components/ui/HoverFlipText";
 import content from "@/content/capabilities.json";
 
@@ -22,8 +21,6 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <>
-      <SplashCursor />
-
       <section className="bg-dark-grey pb-12 pt-40">
         <div className="mx-auto flex flex-col gap-8 px-6 md:px-12 lg:flex-row lg:items-end lg:justify-between lg:px-20">
           <div>
