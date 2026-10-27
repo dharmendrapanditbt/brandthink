@@ -113,6 +113,8 @@ export default function ServicesShowcase() {
             <img
               ref={faceARef}
               alt=""
+              width={1390}
+              height={1080}
               className="absolute inset-0 h-full w-full  object-cover"
               style={{ backfaceVisibility: "hidden" }}
             />
@@ -120,6 +122,8 @@ export default function ServicesShowcase() {
             <img
               ref={faceBRef}
               alt=""
+              width={1390}
+              height={1080}
               className="absolute inset-0 h-full w-full  object-cover"
               style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
             />
@@ -146,6 +150,9 @@ export default function ServicesShowcase() {
                 <img
                   src={item.image}
                   alt=""
+                  width={1390}
+                  height={1080}
+                  loading="lazy"
                   className="h-full w-full object-cover"
                 />
               </div>

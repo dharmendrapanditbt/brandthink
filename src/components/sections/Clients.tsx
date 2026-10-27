@@ -12,6 +12,8 @@ type Logo = {
   color: string;
   /** Optional path to a real logo image, e.g. "/clients/loom.png". Falls back to a text wordmark when unset. */
   logo?: string;
+  width?: number;
+  height?: number;
 };
 
 function LogoTile({ logo }: { logo: Logo }) {
@@ -20,6 +22,8 @@ function LogoTile({ logo }: { logo: Logo }) {
     <img
       src={logo.logo}
       alt={logo.name}
+      width={logo.width}
+      height={logo.height}
       className="h-8 w-auto max-w-[140px] shrink-0 object-contain grayscale transition-all group-hover:grayscale-0 sm:h-10"
     />
   ) : (
@@ -125,30 +129,32 @@ export default function Clients() {
           {content.eyebrow}
         </p>
 
-        <div className="flex w-full flex-col items-center justify-center mx-auto text-center gap-1 sm:gap-2 sm:flex-row">
-          <h2 className="bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-white font-bold">
-            {content.heading.line1}
-          </h2>
-          <h2
-            className="bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-bt-red font-bold"
-          >
-            {content.heading.highlight1}
-          </h2>
-        </div>
-        <div className="flex w-full flex-col items-center justify-center mx-auto text-center gap-1 mb-8 sm:flex-row sm:gap-2">
-          <h2 className="bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-white font-bold">
-            {content.heading.line2}
-          </h2>
-          <h2
-            className="bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-bt-red font-bold"
-          >
-            {content.heading.highlight2}
-          </h2>
-        </div>
+        <h2>
+          <span className="flex w-full flex-col items-center justify-center mx-auto text-center gap-1 sm:gap-2 sm:flex-row">
+            <span className="bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-white font-bold">
+              {content.heading.line1}
+            </span>{" "}
+            <span
+              className="bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-bt-red font-bold"
+            >
+              {content.heading.highlight1}
+            </span>
+          </span>{" "}
+          <span className="flex w-full flex-col items-center justify-center mx-auto text-center gap-1 mb-8 sm:flex-row sm:gap-2">
+            <span className="bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-white font-bold">
+              {content.heading.line2}
+            </span>{" "}
+            <span
+              className="bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase text-bt-red font-bold"
+            >
+              {content.heading.highlight2}
+            </span>
+          </span>
+        </h2>
         <div className="flex w-full items-center justify-center mx-auto px-4 text-center gap-4 mb-8">
-          <h2 className="text-sm text-light-grey">
+          <p className="text-sm text-light-grey">
             {content.description}
-          </h2>
+          </p>
         </div>
 
         {/* <div className="mx-auto mb-16 grid max-w-2xl grid-cols-3 gap-6 border-y border-grey-1 py-8 text-center">

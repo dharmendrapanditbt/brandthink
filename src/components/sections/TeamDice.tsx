@@ -147,6 +147,9 @@ function FacePanel({ member, color }: { member: Member; color: string }) {
         <img
           src={member.photo}
           alt={member.name}
+          width={800}
+          height={800}
+          loading="lazy"
           className="absolute inset-0 h-full w-full object-cover"
         />
       ) : (

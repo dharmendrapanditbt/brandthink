@@ -70,6 +70,9 @@ export default async function CaseStudyDetailPage({
           <img
             src={study.heroImage}
             alt={study.title}
+            width={study.heroImageWidth}
+            height={study.heroImageHeight}
+            fetchPriority="high"
             className="block h-auto w-full grayscale-[45%] contrast-110"
           />
 

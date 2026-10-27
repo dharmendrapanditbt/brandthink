@@ -164,6 +164,8 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
           <img
             src={post.image}
             alt={post.title}
+            width={1200}
+            height={675}
             className="h-full w-full object-cover"
           />
         </div>
@@ -306,6 +308,9 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
                     <img
                       src={relPost.image}
                       alt={relPost.title}
+                      width={1200}
+                      height={675}
+                      loading="lazy"
                       className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                     <div className="absolute left-0 top-0 p-3">

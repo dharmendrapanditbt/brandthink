@@ -98,6 +98,8 @@ export default async function ServiceDetailPage({
           <img
             src={service.image}
             alt={service.title}
+            width={1390}
+            height={1080}
             className="mb-12 w-full object-cover"
           />
 

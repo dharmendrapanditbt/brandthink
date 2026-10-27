@@ -128,7 +128,7 @@ export default function Footer() {
 
       <div className="relative w-full overflow-hidden border-t border-grey-1">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/footer_Idea_6.gif" alt={logo} className="block w-full" />
+        <img src="/footer_Idea_6.gif" alt={logo} width={2560} height={500} loading="lazy" className="block w-full" />
       </div>
 
       <div className="mx-auto flex flex-col items-center justify-between gap-4 border-t border-grey-1 px-6 py-8 sm:flex-row md:px-12 lg:px-20">

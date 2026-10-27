@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import SplashCursor from "@/components/ui/SplashCursor";
+import SplashCursor from "@/components/ui/LazySplashCursor";
 import BlogPostClient, { BlogPostData } from "@/components/sections/BlogPostClient";
 import blogData from "@/content/blog.json";
 

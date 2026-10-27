@@ -55,6 +55,9 @@ export default function CaseStudyVisual({
         <img
           src={image}
           alt={alt ?? ""}
+          width={1280}
+          height={640}
+          loading="lazy"
           className={compact ? "absolute inset-0 h-full w-full object-cover" : "block h-auto w-full"}
         />
 

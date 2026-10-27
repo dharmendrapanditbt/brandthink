@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, DM_Sans, JetBrains_Mono } from "next/font/google";
+import Script from "next/script";
 import siteInfo from "@/content/siteInfo.json";
 import MainSiteWrapper from "@/components/ui/MainSiteWrapper";
 import './globals.css';
@@ -89,22 +90,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
         <meta name="google-site-verification" content="nI0TddYUZly_iSURipKMF1KNsC6yNlQ9t-LjhVtrDho" />
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WDXP0WKFG"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      </head>
+      <body className={`${bebas.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}>
+        <MainSiteWrapper>{children}</MainSiteWrapper>
+        {/* Google tag (gtag.js) — loaded once the page has finished loading so it stays off the critical path */}
+        <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-3WDXP0WKFG" />
+        <Script id="gtag-init" strategy="lazyOnload">{`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-3WDXP0WKFG');
-`,
-          }}
-        />
-      </head>
-      <body className={`${bebas.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}>
-        <MainSiteWrapper>{children}</MainSiteWrapper>
+`}</Script>
       </body>
     </html>
   );

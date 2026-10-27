@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import SplashCursor from "@/components/ui/SplashCursor";
+import SplashCursor from "@/components/ui/LazySplashCursor";
 import {
   BlogHero,
   BlogFeatured,

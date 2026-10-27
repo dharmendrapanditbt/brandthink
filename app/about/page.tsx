@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import CaseStudiesCTA from "@/components/sections/CaseStudiesCTA";
 import TeamDice from "@/components/sections/TeamDice";
-import SplashCursor from "@/components/ui/SplashCursor";
+import SplashCursor from "@/components/ui/LazySplashCursor";
 import aboutContent from "@/content/about-page.json";
 import content from "@/content/team.json";
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CaseStudiesCTA from "@/components/sections/CaseStudiesCTA";
 import ServicesShowcase from "@/components/sections/ServicesShowcase";
-import SplashCursor from "@/components/ui/SplashCursor";
+import SplashCursor from "@/components/ui/LazySplashCursor";
 import HoverFlipText from "@/components/ui/HoverFlipText";
 import content from "@/content/capabilities.json";
 

@@ -6,19 +6,19 @@
   },
   "intro": "The strategists, creators, and technologists building growth infrastructure for every brand we work with.",
   "members": [
-    { "name": "Aditya Raj", "designation": "Founder/CEO", "photo": "/team/Aditya.png" },
-    { "name": "Swastika Chandele", "designation": "COO", "photo": "/team/Swastika.png" },
-    { "name": "Sanyukta Singh", "designation": "Senior Creative Strategist", "photo": "/team/Sanyukta.png" },
-    { "name": "Gayatri Kohali", "designation": "Senior Solutions Manager", "photo": "/team/Gayatri.png" },
-    { "name": "Vivek Kumar", "designation": "Senior Graphic Visualizer", "photo": "/team/Vivek.png" },
-    { "name": "Jay Vardhan Singh", "designation": "ORM Manager", "photo": "/team/Jay.png" },
-    { "name": "Ankit Rohilla", "designation": "Head of Technology", "photo": "/team/Ankit%20.png" },
-    { "name": "Dhvani Panchamiya", "designation": "Head of Business Transformation", "photo": "/team/Dhavni.png" },
-    { "name": "Disha Shah", "designation": "Head of Media Buying", "photo": "/team/Disha.png" },
-    { "name": "Navneet Kaur", "designation": "Head of Client Servicing", "photo": "/team/Navneet.png" },
-    { "name": "Pooja Sahare", "designation": "", "photo": "/team/Pooja.png" },
-    { "name": "Harshita Sharma", "designation": "", "photo": "/team/Harshita.png" },
-    { "name": "Lahu Mote", "designation": "", "photo": "/team/Lahu.png" }
+    { "name": "Aditya Raj", "designation": "Founder/CEO", "photo": "/team/Aditya.webp" },
+    { "name": "Swastika Chandele", "designation": "COO", "photo": "/team/Swastika.webp" },
+    { "name": "Sanyukta Singh", "designation": "Senior Creative Strategist", "photo": "/team/Sanyukta.webp" },
+    { "name": "Gayatri Kohali", "designation": "Senior Solutions Manager", "photo": "/team/Gayatri.webp" },
+    { "name": "Vivek Kumar", "designation": "Senior Graphic Visualizer", "photo": "/team/Vivek.webp" },
+    { "name": "Jay Vardhan Singh", "designation": "ORM Manager", "photo": "/team/Jay.webp" },
+    { "name": "Ankit Rohilla", "designation": "Head of Technology", "photo": "/team/Ankit%20.webp" },
+    { "name": "Dhvani Panchamiya", "designation": "Head of Business Transformation", "photo": "/team/Dhavni.webp" },
+    { "name": "Disha Shah", "designation": "Head of Media Buying", "photo": "/team/Disha.webp" },
+    { "name": "Navneet Kaur", "designation": "Head of Client Servicing", "photo": "/team/Navneet.webp" },
+    { "name": "Pooja Sahare", "designation": "", "photo": "/team/Pooja.webp" },
+    { "name": "Harshita Sharma", "designation": "", "photo": "/team/Harshita.webp" },
+    { "name": "Lahu Mote", "designation": "", "photo": "/team/Lahu.webp" }
   ],
   "cta": {
     "heading": {
