@@ -4367,6 +4367,3191 @@
           "text": "Book a creative testing audit to build a clearer process for testing ideas, measuring results, and deciding which advertisements deserve more investment."
         }
       ]
+    },
+    {
+      "category": "Performance",
+      "categoryColor": "#E8000E",
+      "readTime": "8 min read",
+      "title": "Your ROAS Looks Great. So Why Isn’t the Business Growing?",
+      "metaTitle": "Your ROAS Looks Great. So Why Isn’t the Business Growing?",
+      "metaDescription": "Your ROAS looks great. Your ad campaigns are bringing in sales, your dashboards show positive numbers, and your marketing team seems to be doing everything right.",
+      "excerpt": "Your ROAS looks great. Your ad campaigns are bringing in sales, your dashboards show positive numbers, and your marketing team seems to be doing everything right.",
+      "date": "27 Oct 2026",
+      "slug": "roas-looks-great-why-isnt-business-growing",
+      "image": "/images/blog9_1.png",
+      "author": {
+        "name": "Dharmendra Pandit",
+        "role": "Founder & Head of Strategy",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Your ROAS looks great. Your ad campaigns are bringing in sales, your dashboards show positive numbers, and your marketing team seems to be doing everything right. Yet, when you look at your actual business performance, something feels off. Revenue is not growing as expected, profit margins are getting tighter, and customer acquisition costs keep rising. This is where the gap between ROAS profitability and real business growth becomes clear. A high return on ad spend does not always mean your business is making more money. Sometimes, it simply means your advertising platform is reporting a good result without showing the full picture."
+        },
+        {
+          "type": "paragraph",
+          "text": "So, what is really happening? And more importantly, what should you measure beyond platform ROAS to understand whether your marketing is helping your business grow?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Let's break it down."
+        },
+        {
+          "type": "heading",
+          "text": "What Is ROAS and Why Can It Be Misleading?"
+        },
+        {
+          "type": "paragraph",
+          "text": "ROAS, or Return on Ad Spend, measures the revenue generated for every rupee spent on advertising."
+        },
+        {
+          "type": "paragraph",
+          "text": "The formula is simple."
+        },
+        {
+          "type": "paragraph",
+          "text": "ROAS = Revenue Attributed to Ads ÷ Advertising Spend"
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if you spend ₹1,00,000 on Google Ads and generate ₹5,00,000 in attributed revenue, your ROAS is 5x."
+        },
+        {
+          "type": "paragraph",
+          "text": "That sounds like a good result, right?"
+        },
+        {
+          "type": "paragraph",
+          "text": "But there is a problem. ROAS only measures the revenue attributed to advertising. It does not automatically account for product costs, shipping, discounts, returns, payment fees, or other business expenses."
+        },
+        {
+          "type": "paragraph",
+          "text": "A campaign can report a 5x ROAS and still lose money."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why businesses need to look beyond advertising revenue and understand what they actually earn from each sale."
+        },
+        {
+          "type": "heading",
+          "text": "7 Reasons Your ROAS Looks Great but Your Business Isn’t Growing"
+        },
+        {
+          "type": "subheading",
+          "text": "1. Your Revenue Is Growing, but Your Profit Margins Are Shrinking"
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the biggest mistakes brands make is treating revenue as profit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let's say you sell a product for ₹2,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your advertising cost per sale is ₹400, which gives you a 5x ROAS."
+        },
+        {
+          "type": "paragraph",
+          "text": "At first, this looks profitable. But now consider your other costs."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Product cost: ₹900",
+            "Shipping and packaging: ₹150",
+            "Payment processing: ₹50",
+            "Advertising cost: ₹400"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Your total cost is ₹1,500."
+        },
+        {
+          "type": "paragraph",
+          "text": "That leaves you with ₹500 before accounting for other overheads, taxes, and operational expenses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now imagine you offer a 20% discount to increase sales. Your revenue drops to ₹1,600, while most of your costs remain the same."
+        },
+        {
+          "type": "paragraph",
+          "text": "Suddenly, your profit margin looks very different."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why ROAS profitability needs to be evaluated alongside contribution margin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contribution margin tells you how much money remains after variable costs. It helps you understand whether each additional sale is actually contributing to the business."
+        },
+        {
+          "type": "subheading",
+          "text": "2. Your Ads Are Taking Credit for Sales That Would Have Happened Anyway"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is where incrementality becomes important."
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine a customer has already decided to buy from your brand. They visit your website, search for your brand name on Google, click your paid ad, and complete the purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your advertising platform may attribute that sale to the campaign."
+        },
+        {
+          "type": "paragraph",
+          "text": "But would the customer have purchased without the ad?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quite possibly."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is especially common with branded search campaigns, remarketing ads, and campaigns targeting existing customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The problem is that attributed revenue is not always incremental revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Incrementality measures the additional sales or conversions generated because of your marketing activity."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Your campaign reports 1,000 conversions.",
+            "A control group suggests that 300 of those conversions would have happened anyway.",
+            "Your estimated incremental conversions are 700."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The campaign may look less impressive when measured this way. But the result is more useful because it shows the actual impact of advertising."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you want to understand whether your marketing is creating new demand or simply capturing existing demand, incrementality testing is worth considering."
+        },
+        {
+          "type": "subheading",
+          "text": "3. Your Customer Acquisition Cost Is Increasing"
+        },
+        {
+          "type": "paragraph",
+          "text": "A campaign can maintain a strong ROAS while your customer acquisition cost (CAC) gradually increases."
+        },
+        {
+          "type": "paragraph",
+          "text": "How does that happen?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your business might be generating more revenue from existing customers, larger orders, or repeat purchases. At the same time, acquiring new customers may be getting more expensive."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, your average order value could increase from ₹2,000 to ₹3,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "Even if your cost per acquisition rises from ₹400 to ₹600, your ROAS remains at 5x."
+        },
+        {
+          "type": "paragraph",
+          "text": "But what if your business needs new customers to grow?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A rising CAC can make future growth harder, especially when customers take months to generate enough repeat revenue to cover their acquisition costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "You should track:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "New customer CAC",
+            "Returning customer CAC",
+            "Customer lifetime value (LTV)",
+            "Payback period",
+            "First-order contribution margin"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These metrics help you understand whether your acquisition strategy can support long-term growth."
+        },
+        {
+          "type": "subheading",
+          "text": "4. Your Marketing Is Relying Too Much on Existing Customers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Repeat customers are valuable. They already know your brand and may be more likely to purchase again."
+        },
+        {
+          "type": "paragraph",
+          "text": "But there is a difference between retaining customers and acquiring new ones."
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose your remarketing campaigns generate a 7x ROAS, while your prospecting campaigns generate a 2.5x ROAS."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your overall ROAS might look healthy because remarketing is performing well."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, if your prospecting campaigns are not bringing in enough new customers, your business may struggle to expand."
+        },
+        {
+          "type": "paragraph",
+          "text": "You could be spending more money to reach people who already know your brand instead of reaching new audiences."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why customer acquisition and customer retention should be measured separately."
+        },
+        {
+          "type": "paragraph",
+          "text": "A healthy growth strategy needs both."
+        },
+        {
+          "type": "subheading",
+          "text": "5. Your Attribution Model Is Giving You an Incomplete Picture"
+        },
+        {
+          "type": "paragraph",
+          "text": "Different advertising platforms use different attribution models."
+        },
+        {
+          "type": "paragraph",
+          "text": "Google Ads, Meta Ads, and other platforms may each claim credit for the same purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a customer might:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Discover your brand through Instagram.",
+            "Click a Google search ad a few days later.",
+            "Visit your website directly.",
+            "Complete the purchase."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Meta and Google may both report that they contributed to the conversion."
+        },
+        {
+          "type": "paragraph",
+          "text": "This does not mean the platforms are necessarily reporting incorrect data. They may be using different attribution windows, models, and conversion signals."
+        },
+        {
+          "type": "paragraph",
+          "text": "The problem arises when you add their reported revenue together and treat it as your actual business revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "To get a clearer picture, compare platform data with:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Your ecommerce or CRM revenue",
+            "Google Analytics 4 (GA4)",
+            "New customer sales",
+            "Blended marketing efficiency ratio (MER)",
+            "Contribution margin"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No single attribution model can explain every customer journey."
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is to understand how different channels work together and how much revenue your business actually generates."
+        },
+        {
+          "type": "subheading",
+          "text": "6. Your Discounts Are Making Campaigns Look Better Than They Are"
+        },
+        {
+          "type": "paragraph",
+          "text": "Discounts can increase conversion rates and help campaigns generate more revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "But they can also hide profitability problems."
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine your brand normally sells a product for ₹2,500."
+        },
+        {
+          "type": "paragraph",
+          "text": "During a sale, you offer a 25% discount, reducing the price to ₹1,875."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your advertising platform reports more purchases and a higher ROAS."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, your revenue per order has dropped."
+        },
+        {
+          "type": "paragraph",
+          "text": "If your product costs, shipping expenses, and advertising costs remain similar, your contribution margin may fall sharply."
+        },
+        {
+          "type": "paragraph",
+          "text": "This becomes even more concerning when customers start waiting for discounts before purchasing."
+        },
+        {
+          "type": "paragraph",
+          "text": "You should measure ROAS alongside:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Discounted revenue",
+            "Average order value",
+            "Contribution margin per order",
+            "Full-price purchase percentage",
+            "Repeat purchase rate"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A campaign that generates fewer sales at full price may be more profitable than one that generates more discounted orders."
+        },
+        {
+          "type": "subheading",
+          "text": "7. Your Business Is Measuring Short-Term Results Instead of Long-Term Growth"
+        },
+        {
+          "type": "paragraph",
+          "text": "Not every marketing activity generates immediate sales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some campaigns introduce your brand to new customers. Others help customers compare products, understand your offering, or return later."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you only measure immediate conversions, you may undervalue campaigns that contribute to future growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is especially relevant for brands with longer buying cycles."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a customer might discover your brand through a YouTube ad, research your products over the next two weeks, and eventually purchase through Google Search."
+        },
+        {
+          "type": "paragraph",
+          "text": "The YouTube campaign may not receive direct conversion credit, even though it helped influence the purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why businesses need a broader measurement approach."
+        },
+        {
+          "type": "paragraph",
+          "text": "Marketing mix modeling (MMM), incrementality testing, and customer journey analysis can help you understand how marketing contributes to business results over time."
+        },
+        {
+          "type": "heading",
+          "text": "What Should Brands Measure Beyond Platform ROAS?"
+        },
+        {
+          "type": "paragraph",
+          "text": "If platform ROAS cannot explain the full picture, what should you measure instead?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here are the metrics worth tracking."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Metric",
+            "What It Tells You"
+          ],
+          "rows": [
+            [
+              "Contribution Margin",
+              "How much money remains after variable costs"
+            ],
+            [
+              "Incremental ROAS",
+              "How much additional revenue advertising generates"
+            ],
+            [
+              "Customer Acquisition Cost",
+              "How much it costs to acquire a customer"
+            ],
+            [
+              "Customer Lifetime Value",
+              "How much revenue or contribution a customer generates over time"
+            ],
+            [
+              "Marketing Efficiency Ratio",
+              "How much total revenue your business generates relative to marketing spend"
+            ],
+            [
+              "Payback Period",
+              "How long it takes to recover customer acquisition costs"
+            ],
+            [
+              "New Customer Revenue",
+              "Whether marketing is bringing in new buyers"
+            ],
+            [
+              "Blended ROAS",
+              "How total revenue compares with total advertising spend"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These metrics work best when you use them together."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a campaign with a 4x ROAS, strong contribution margin, and low new customer CAC may be more valuable than a campaign with a 6x ROAS that relies heavily on discounts and existing customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The right measurement framework depends on your business model, margins, customer behaviour, and growth goals."
+        },
+        {
+          "type": "heading",
+          "text": "How to Build a Better Marketing Measurement Framework"
+        },
+        {
+          "type": "paragraph",
+          "text": "You do not need to stop tracking ROAS."
+        },
+        {
+          "type": "paragraph",
+          "text": "You need to stop treating it as the only measure of success."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here are a few practical steps you can take."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 1. Calculate Your Break-Even ROAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Start by understanding how much advertising revenue you need to cover your costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "If your contribution margin before advertising is 40%, your break-even ROAS is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Break-Even ROAS = 1 ÷ Contribution Margin"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1 ÷ 0.40 = 2.5x"
+        },
+        {
+          "type": "paragraph",
+          "text": "You need a 2.5x ROAS to cover your variable costs before considering fixed overheads and other business expenses."
+        },
+        {
+          "type": "paragraph",
+          "text": "This gives you a useful starting point for setting campaign targets."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 2. Separate New and Returning Customers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Track how much revenue comes from new customers and how much comes from existing customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps you identify whether your campaigns are expanding your customer base or mainly encouraging repeat purchases."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 3. Run Incrementality Tests"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use controlled experiments to understand whether your advertising generates additional sales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Depending on your business, you can test:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Geographic holdout groups",
+            "Audience holdout experiments",
+            "Conversion lift studies",
+            "Branded search campaign tests"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is to compare what happens when advertising is active with what happens when it is not."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 4. Connect Marketing Data With Business Data"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your advertising platforms should not be the only source of truth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bring together data from your ecommerce platform, CRM, GA4, advertising accounts, and finance reports."
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps you connect marketing performance with actual revenue, margins, and customer behaviour."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 5. Use MMM Alongside Experiments"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marketing mix modeling (MMM) helps estimate how different marketing channels contribute to business outcomes over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "It can also account for factors such as seasonality, pricing changes, and other business conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Incrementality experiments provide more direct evidence for specific campaigns or channels."
+        },
+        {
+          "type": "paragraph",
+          "text": "When used together, these methods can help you make better budget decisions."
+        },
+        {
+          "type": "heading",
+          "text": "The Future of Marketing Measurement Is Bigger Than ROAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marketing measurement is moving toward business outcomes rather than platform-reported efficiency alone."
+        },
+        {
+          "type": "paragraph",
+          "text": "Brands are asking better questions."
+        },
+        {
+          "type": "list",
+          "items": [
+            "How much additional revenue did our advertising generate?",
+            "Are we acquiring profitable customers?",
+            "Which channels contribute to long-term growth?",
+            "How much can we spend without hurting our margins?",
+            "Are our marketing investments creating demand or simply capturing it?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These questions matter because growth is not just about generating more revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is about generating revenue that supports the business."
+        },
+        {
+          "type": "paragraph",
+          "text": "As measurement practices evolve, brands will need to combine platform reporting, first-party data, contribution margin analysis, incrementality testing, and MMM."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no single metric that answers every question."
+        },
+        {
+          "type": "paragraph",
+          "text": "But a better measurement system can help you understand where your money is going and which investments are actually working."
+        },
+        {
+          "type": "heading",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "type": "heading",
+          "text": "1. Can a high ROAS campaign still be unprofitable?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. ROAS measures attributed revenue against advertising spend. It does not automatically account for product costs, shipping, discounts, returns, or other expenses. A high ROAS campaign can still have low or negative contribution margin."
+        },
+        {
+          "type": "heading",
+          "text": "2. What is the difference between ROAS and incremental ROAS?"
+        },
+        {
+          "type": "paragraph",
+          "text": "ROAS measures revenue attributed to advertising. Incremental ROAS measures the additional revenue generated because of advertising, excluding sales that would likely have happened without the campaign."
+        },
+        {
+          "type": "heading",
+          "text": "3. What is a good ROAS for an ecommerce business?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A good ROAS depends on your contribution margin, product costs, customer acquisition costs, and business goals. A 3x ROAS may be profitable for one business and unprofitable for another."
+        },
+        {
+          "type": "heading",
+          "text": "4. Why is contribution margin more useful than ROAS for profitability?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contribution margin shows how much money remains after variable costs. It helps businesses understand whether additional sales are contributing enough money to cover advertising and other expenses."
+        },
+        {
+          "type": "heading",
+          "text": "5. What should brands measure beyond platform ROAS?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Brands should track contribution margin, incremental ROAS, CAC, customer lifetime value, payback period, new customer revenue, and blended marketing efficiency."
+        },
+        {
+          "type": "heading",
+          "text": "6. How can a business measure marketing incrementality?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Businesses can use controlled experiments such as geographic holdouts, audience holdouts, and conversion lift studies. These tests compare results between groups exposed to advertising and groups that are not."
+        },
+        {
+          "type": "heading",
+          "text": "7. What is the role of marketing mix modeling in measuring growth?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marketing mix modeling estimates how different marketing channels contribute to business outcomes over time. It can help brands understand channel performance, account for external factors, and make better budget allocation decisions."
+        },
+        {
+          "type": "heading",
+          "text": "Final Thoughts"
+        },
+        {
+          "type": "paragraph",
+          "text": "A high ROAS can look impressive on a dashboard."
+        },
+        {
+          "type": "paragraph",
+          "text": "But if your profit margins are shrinking, your CAC is increasing, or your business is struggling to acquire new customers, something needs to change."
+        },
+        {
+          "type": "paragraph",
+          "text": "ROAS profitability is not just about how much revenue your ads generate. It is about understanding how advertising contributes to the financial health of your business."
+        },
+        {
+          "type": "paragraph",
+          "text": "Start by looking at contribution margin. Then evaluate incrementality, customer acquisition costs, and the role of each marketing channel."
+        },
+        {
+          "type": "paragraph",
+          "text": "The numbers may look different when you measure them this way."
+        },
+        {
+          "type": "paragraph",
+          "text": "And that is a good thing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the goal is not to make your marketing dashboard look better. The goal is to build a business that can grow without spending more money than it can afford."
+        },
+        {
+          "type": "heading",
+          "text": "Need Help Understanding Your Marketing Performance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "If your ROAS looks healthy but your business is not growing, it may be time to review your measurement framework."
+        },
+        {
+          "type": "paragraph",
+          "text": "A growth measurement consultation can help you identify gaps in attribution, evaluate contribution margin, assess incrementality, and understand which marketing investments are supporting real business growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let's look beyond the dashboard and find out what your marketing is actually delivering."
+        }
+      ]
+    },
+    {
+      "category": "Intelligence",
+      "categoryColor": "#fbbf24",
+      "readTime": "8 min read",
+      "title": "Can AI Actually Understand What People Mean Online? The Problem With Sentiment Scores!",
+      "metaTitle": "Can AI Actually Understand What People Mean Online? The Problem With Sentiment Scores!",
+      "metaDescription": "AI sentiment analysis can tell you whether an online comment sounds positive, negative, or neutral. But can it actually understand what a person means?",
+      "excerpt": "AI sentiment analysis can tell you whether an online comment sounds positive, negative, or neutral. But can it actually understand what a person means?",
+      "date": "27 Oct 2026",
+      "slug": "can-ai-understand-what-people-mean-sentiment-scores",
+      "image": "/images/blog10_1.png",
+      "author": {
+        "name": "Dharmendra Pandit",
+        "role": "Founder & Head of Strategy",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "AI sentiment analysis can tell you whether an online comment sounds positive, negative, or neutral. But can it actually understand what a person means?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Think about this comment on a brand's Instagram post."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Wow, another price increase. Just what I needed.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "A basic AI tool might read this as positive because of the phrase \"just what I needed.\" But you and I know the person is probably frustrated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now imagine someone writes, \"This product is sick!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Is that a complaint? Not necessarily. It could be the highest compliment a customer can give."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is where AI sentiment analysis gets complicated. Online conversations are full of sarcasm, slang, cultural references, and mixed emotions. A simple positive or negative score often misses the real meaning behind a message."
+        },
+        {
+          "type": "paragraph",
+          "text": "For brands, this is more than a technical issue. It can affect customer experience, brand reputation, and business decisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "So, can AI actually understand what people mean online? Let's look at why sentiment scores often fall short and what businesses should measure instead."
+        },
+        {
+          "type": "heading",
+          "text": "What Is AI Sentiment Analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI sentiment analysis is a method of using artificial intelligence and natural language processing (NLP) to identify the emotional tone of text."
+        },
+        {
+          "type": "paragraph",
+          "text": "It helps businesses understand how people feel about a brand, product, service, or topic."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, an AI sentiment analysis tool might classify these comments:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Customer Comment",
+            "Basic Sentiment"
+          ],
+          "rows": [
+            [
+              "\"I love this product!\"",
+              "Positive"
+            ],
+            [
+              "\"The delivery was terrible.\"",
+              "Negative"
+            ],
+            [
+              "\"The package arrived yesterday.\"",
+              "Neutral"
+            ],
+            [
+              "\"Great, another delayed delivery.\"",
+              "Negative"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The technology can process thousands of comments, reviews, social media posts, and customer messages much faster than a person could."
+        },
+        {
+          "type": "paragraph",
+          "text": "This makes it useful for social listening, customer feedback analysis, and brand reputation tracking."
+        },
+        {
+          "type": "paragraph",
+          "text": "But there is a catch."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sentiment classification identifies patterns in language. It does not automatically mean the system understands the speaker's intention, experience, or emotional state."
+        },
+        {
+          "type": "paragraph",
+          "text": "And that difference matters."
+        },
+        {
+          "type": "heading",
+          "text": "7 Reasons Basic Sentiment Scores Fail to Understand Online Conversations"
+        },
+        {
+          "type": "subheading",
+          "text": "1. Sarcasm Can Reverse the Meaning of a Sentence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sarcasm is one of the biggest challenges in sentiment analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "People often say the opposite of what they mean."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider this comment:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Fantastic customer service. They only took three weeks to reply.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "A basic model might identify \"fantastic customer service\" as positive."
+        },
+        {
+          "type": "paragraph",
+          "text": "But the complete sentence expresses frustration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Why does this happen?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sentiment depends on the relationship between the words, the situation, and the speaker's intention."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sarcasm detection requires a system to look beyond individual words."
+        },
+        {
+          "type": "paragraph",
+          "text": "It may need to consider:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The full sentence",
+            "Previous messages in the conversation",
+            "The situation being discussed",
+            "Common sarcastic expressions",
+            "The contrast between the words and the outcome"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Even advanced language models can struggle with sarcasm when the context is missing."
+        },
+        {
+          "type": "paragraph",
+          "text": "For brands, this means a positive sentiment score does not always indicate a satisfied customer."
+        },
+        {
+          "type": "subheading",
+          "text": "2. Context Changes the Meaning of Words"
+        },
+        {
+          "type": "paragraph",
+          "text": "A word can have different meanings depending on how someone uses it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Take the word \"cheap.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "\"This product is cheap.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "That could mean the product is affordable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Or it could mean the product feels poorly made."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now consider:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"The packaging is cheap, but the product itself is excellent.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "A single positive or negative label cannot fully explain this review."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why contextual sentiment analysis matters."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of looking at the entire sentence as one emotional category, businesses need to understand what the customer feels about specific aspects of a product or service."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Packaging: Negative",
+            "Product quality: Positive",
+            "Overall experience: Mixed"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This gives a much clearer picture of what customers actually think."
+        },
+        {
+          "type": "subheading",
+          "text": "3. People Can Feel More Than One Emotion at a Time"
+        },
+        {
+          "type": "paragraph",
+          "text": "Human emotions are rarely limited to positive or negative."
+        },
+        {
+          "type": "paragraph",
+          "text": "A customer might love a product but feel disappointed with the delivery."
+        },
+        {
+          "type": "paragraph",
+          "text": "Someone might be excited about a new feature while worrying about its price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider this review:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"I love the new design, but the subscription cost is getting ridiculous.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "A basic sentiment tool might classify the entire review as negative."
+        },
+        {
+          "type": "paragraph",
+          "text": "But that misses an important detail."
+        },
+        {
+          "type": "paragraph",
+          "text": "The customer likes the product. The problem is the pricing."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is where emotion analysis becomes useful."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather than assigning a single sentiment score, a more detailed system can identify emotions such as:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Happiness",
+            "Frustration",
+            "Disappointment",
+            "Excitement",
+            "Confusion",
+            "Trust",
+            "Anxiety"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "It can also identify mixed emotions within the same message."
+        },
+        {
+          "type": "paragraph",
+          "text": "For brands, this helps separate product satisfaction from pricing concerns, service complaints, and other issues."
+        },
+        {
+          "type": "subheading",
+          "text": "4. Slang and Internet Language Keep Changing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Online conversations rarely follow textbook grammar."
+        },
+        {
+          "type": "paragraph",
+          "text": "People use abbreviations, memes, emojis, slang, and expressions that change meaning over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"That update is fire.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "A basic model might interpret \"fire\" as something dangerous or negative."
+        },
+        {
+          "type": "paragraph",
+          "text": "But in this context, it means the update is excellent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now consider:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Bro, this feature is dead.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Does that mean the feature is no longer available? Or does the person mean it is boring?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The answer depends on the conversation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Internet language also changes across communities."
+        },
+        {
+          "type": "paragraph",
+          "text": "A phrase that sounds positive in one online group might mean something completely different in another."
+        },
+        {
+          "type": "paragraph",
+          "text": "This creates a challenge for businesses that monitor conversations across multiple platforms, regions, and age groups."
+        },
+        {
+          "type": "paragraph",
+          "text": "AI systems need regular evaluation against real conversations. A model trained on older language patterns may not interpret newer slang correctly."
+        },
+        {
+          "type": "subheading",
+          "text": "5. Cultural Differences Affect Sentiment"
+        },
+        {
+          "type": "paragraph",
+          "text": "The same expression can carry different meanings across cultures."
+        },
+        {
+          "type": "paragraph",
+          "text": "People also express frustration, happiness, politeness, and disagreement in different ways."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a customer might say:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"The service was okay.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "In one context, this could be a neutral statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "In another, it might be a polite way of expressing disappointment."
+        },
+        {
+          "type": "paragraph",
+          "text": "This becomes more complicated when brands operate across different countries and languages."
+        },
+        {
+          "type": "paragraph",
+          "text": "A sentiment model trained primarily on English-language data may struggle with:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Regional slang",
+            "Local expressions",
+            "Cultural references",
+            "Code-switching between languages",
+            "Different ways of expressing disagreement"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider an Indian customer writing:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Service toh achhi thi, but delivery kaafi late hui.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The customer is saying that the service was good, but the delivery was quite late."
+        },
+        {
+          "type": "paragraph",
+          "text": "A basic English-only model may struggle to interpret the mixed Hindi-English sentence correctly."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why multilingual sentiment analysis needs more than direct word translation."
+        },
+        {
+          "type": "paragraph",
+          "text": "It needs to account for how people actually communicate."
+        },
+        {
+          "type": "subheading",
+          "text": "6. A Sentiment Score Does Not Explain Why People Feel That Way"
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine your brand receives 10,000 online mentions in a month."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your sentiment dashboard reports:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "65% positive",
+            "20% neutral",
+            "15% negative"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "At first glance, this seems useful."
+        },
+        {
+          "type": "paragraph",
+          "text": "But what does it tell you about your business?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Not much."
+        },
+        {
+          "type": "paragraph",
+          "text": "You still do not know whether customers are unhappy with your pricing, delivery, product quality, customer support, or website experience."
+        },
+        {
+          "type": "paragraph",
+          "text": "The negative sentiment could come from a single issue affecting thousands of customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Or it could be spread across several unrelated problems."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why businesses need to connect sentiment with topics, products, and customer experiences."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Topic",
+            "Sentiment",
+            "Possible Business Action"
+          ],
+          "rows": [
+            [
+              "Product quality",
+              "Positive",
+              "Maintain current standards"
+            ],
+            [
+              "Delivery delays",
+              "Negative",
+              "Review shipping operations"
+            ],
+            [
+              "Pricing",
+              "Mixed",
+              "Evaluate perceived value"
+            ],
+            [
+              "Customer support",
+              "Negative",
+              "Improve response times"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This type of analysis gives businesses a better starting point for action."
+        },
+        {
+          "type": "subheading",
+          "text": "7. AI Can Misread the Difference Between a Complaint and a Joke"
+        },
+        {
+          "type": "paragraph",
+          "text": "Online conversations are often playful."
+        },
+        {
+          "type": "paragraph",
+          "text": "People joke about brands, products, and everyday experiences."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"My laptop has decided to retire before I do.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "A basic sentiment tool might identify \"retire\" as a negative signal."
+        },
+        {
+          "type": "paragraph",
+          "text": "But the person may simply be making a joke about an old laptop."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now imagine a customer writing:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Love waiting 40 minutes for support.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The sentence is humorous, but it also expresses a genuine complaint."
+        },
+        {
+          "type": "paragraph",
+          "text": "The challenge is not just identifying whether the sentence is positive or negative."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is understanding whether the person is joking, complaining, expressing frustration, or doing several things at once."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why sentiment scores should be treated as signals rather than complete explanations."
+        },
+        {
+          "type": "heading",
+          "text": "What Comes After Basic Sentiment Analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The next step is not simply assigning more accurate positive and negative labels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Businesses need a deeper understanding of online conversations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here are four areas worth exploring."
+        },
+        {
+          "type": "subheading",
+          "text": "1. Contextual Sentiment Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contextual sentiment analysis looks at the meaning of a message within its surrounding conversation."
+        },
+        {
+          "type": "paragraph",
+          "text": "It considers how words relate to one another and how the situation changes their meaning."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"The product is great, but the support team is useless.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "A contextual model can identify positive sentiment toward the product and negative sentiment toward customer support."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is more useful than assigning one overall score."
+        },
+        {
+          "type": "subheading",
+          "text": "2. Aspect-Based Sentiment Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aspect-based sentiment analysis (ABSA) identifies sentiment toward specific features, services, or topics."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"The phone has an amazing camera, but the battery life is disappointing.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The model can identify:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Camera: Positive",
+            "Battery life: Negative"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps businesses understand which parts of their products customers appreciate and which areas need attention."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is especially useful for ecommerce reviews, product feedback, and customer experience analysis."
+        },
+        {
+          "type": "subheading",
+          "text": "3. Emotion Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Emotion analysis goes beyond positive and negative sentiment."
+        },
+        {
+          "type": "paragraph",
+          "text": "It attempts to identify the specific emotions expressed in a message."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"I have been waiting for my refund for two weeks. This is ridiculous.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The message may express frustration, anger, and disappointment."
+        },
+        {
+          "type": "paragraph",
+          "text": "These emotions can help businesses prioritize customer issues."
+        },
+        {
+          "type": "paragraph",
+          "text": "A frustrated customer waiting for a refund may need a different response from someone asking a simple product question."
+        },
+        {
+          "type": "subheading",
+          "text": "4. Sarcasm Detection and Intent Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sarcasm detection helps identify when the literal meaning of a sentence differs from the intended meaning."
+        },
+        {
+          "type": "paragraph",
+          "text": "Intent analysis goes one step further by identifying what the person is trying to communicate."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Great, another broken feature.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The system may identify:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sentiment: Negative",
+            "Emotion: Frustration",
+            "Intent: Complaint",
+            "Topic: Product functionality"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This gives a more complete view of the conversation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Still, no model will interpret every message correctly. Human review remains useful for ambiguous or high-impact cases."
+        },
+        {
+          "type": "heading",
+          "text": "How Businesses Can Use AI Sentiment Analysis More Effectively"
+        },
+        {
+          "type": "paragraph",
+          "text": "If you are using AI to monitor brand reputation, start by asking what decisions the data should support."
+        },
+        {
+          "type": "paragraph",
+          "text": "A few practical steps can help."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 1. Track Topics Alongside Sentiment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not stop at positive and negative percentages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Identify the subjects people are discussing."
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps you understand what is driving sentiment."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 2. Monitor Changes Over Time"
+        },
+        {
+          "type": "paragraph",
+          "text": "A sudden increase in negative mentions about a product or service may signal a developing problem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare sentiment trends with customer support tickets, product updates, and business events."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 3. Review Real Customer Conversations"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI can process large amounts of data, but human reviewers can help identify patterns that automated models miss."
+        },
+        {
+          "type": "paragraph",
+          "text": "Review samples of positive, negative, mixed, and neutral messages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pay particular attention to sarcasm, slang, and multilingual conversations."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 4. Measure Accuracy Against Human Judgement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Create a sample of customer messages and have human reviewers label them."
+        },
+        {
+          "type": "paragraph",
+          "text": "Then compare the model's predictions with those labels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Measure performance using metrics such as:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Precision",
+            "Recall",
+            "F1 score",
+            "Confusion matrix"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps you understand where the model performs well and where it struggles."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 5. Connect Sentiment With Business Outcomes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sentiment data becomes more useful when you connect it with customer experience and business performance."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, you might compare negative sentiment about delivery with refund requests, repeat purchases, and customer support volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps you understand whether a sentiment trend reflects a real business issue."
+        },
+        {
+          "type": "heading",
+          "text": "Can AI Actually Understand What People Mean Online?"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI can identify patterns, interpret context, and estimate the meaning of many online conversations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Modern language models can also recognize sarcasm, mixed emotions, and cultural expressions better than simple word-based sentiment tools."
+        },
+        {
+          "type": "paragraph",
+          "text": "But there is still a difference between identifying the likely meaning of a message and fully understanding the person behind it."
+        },
+        {
+          "type": "paragraph",
+          "text": "A sentiment score is an estimate."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is not a complete explanation of human emotion."
+        },
+        {
+          "type": "paragraph",
+          "text": "For businesses, the goal should be to move beyond basic positive and negative labels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contextual sentiment, emotion analysis, aspect-based sentiment analysis, and intent detection can provide a more useful view of customer conversations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The real value comes when you connect these insights with actual business decisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because knowing that a customer is unhappy is one thing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Understanding why they are unhappy, what they need, and how your brand should respond is a much more useful starting point."
+        },
+        {
+          "type": "heading",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "type": "heading",
+          "text": "1. Can AI sentiment analysis understand sarcasm?"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI sentiment analysis can identify some forms of sarcasm by analyzing context, language patterns, and relationships between words. Still, sarcasm detection remains difficult because the intended meaning may differ from the literal meaning."
+        },
+        {
+          "type": "heading",
+          "text": "2. Why are sentiment scores sometimes inaccurate?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sentiment scores can be inaccurate because of sarcasm, slang, cultural differences, mixed emotions, missing context, and ambiguous language."
+        },
+        {
+          "type": "heading",
+          "text": "3. What is contextual sentiment analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contextual sentiment analysis evaluates the meaning of a message within its surrounding conversation. It helps identify sentiment that depends on context rather than individual words."
+        },
+        {
+          "type": "heading",
+          "text": "4. What is the difference between sentiment analysis and emotion analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sentiment analysis typically identifies whether a message expresses positive, negative, or neutral feelings. Emotion analysis attempts to identify more specific emotions, such as anger, happiness, frustration, or disappointment."
+        },
+        {
+          "type": "heading",
+          "text": "5. What is aspect-based sentiment analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aspect-based sentiment analysis identifies sentiment toward specific features, products, or services. For example, a review may express positive sentiment about product quality and negative sentiment about delivery."
+        },
+        {
+          "type": "heading",
+          "text": "6. How can businesses improve sentiment analysis accuracy?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Businesses can improve accuracy by using contextual models, reviewing real conversations, evaluating performance against human-labelled data, and accounting for language and cultural differences."
+        },
+        {
+          "type": "heading",
+          "text": "7. What comes after basic sentiment analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The next stage includes contextual sentiment analysis, emotion detection, aspect-based sentiment analysis, sarcasm detection, and intent analysis. These approaches provide a more detailed understanding of customer conversations."
+        },
+        {
+          "type": "heading",
+          "text": "Need a Clearer Picture of Your Brand Reputation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "If your brand is receiving thousands of online mentions but your sentiment dashboard is not explaining what customers actually mean, it may be time to review your approach."
+        },
+        {
+          "type": "paragraph",
+          "text": "A reputation intelligence audit can help you assess your current sentiment tracking, identify gaps in contextual analysis, and understand how AI is interpreting customer conversations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is simple."
+        },
+        {
+          "type": "paragraph",
+          "text": "Move beyond sentiment scores and get a clearer understanding of what people are saying about your brand, why they are saying it, and what you can do about it."
+        }
+      ]
+    },
+    {
+      "category": "Technology",
+      "categoryColor": "#2dd4ff",
+      "readTime": "8 min read",
+      "title": "Why Does AI Cite One Brand and Ignore Another? The New Battle for Digital Evidence!",
+      "metaTitle": "Why Does AI Cite One Brand and Ignore Another? The New Battle for Digital Evidence!",
+      "metaDescription": "Have you ever searched for your brand on ChatGPT, Gemini, or Perplexity and wondered why a competitor keeps getting mentioned while your business gets ignored?",
+      "excerpt": "Have you ever searched for your brand on ChatGPT, Gemini, or Perplexity and wondered why a competitor keeps getting mentioned while your business gets ignored?",
+      "date": "27 Oct 2026",
+      "slug": "why-ai-cites-one-brand-ignores-another-digital-evidence",
+      "image": "/images/blog11_1.png",
+      "author": {
+        "name": "Dharmendra Pandit",
+        "role": "Founder & Head of Strategy",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Have you ever searched for your brand on ChatGPT, Gemini, or Perplexity and wondered why a competitor keeps getting mentioned while your business gets ignored? This is where AI citations become important. When people ask AI platforms for recommendations, comparisons, or answers, the sources behind those answers can influence which brands they discover. Your website might rank well on Google, yet another brand could appear more often in AI-generated responses. Why does that happen? It often comes down to the quality of available evidence, how clearly your content answers questions, and whether AI systems can find and verify the information. Let's explore what makes one brand easier to cite than another and how you can improve your AI visibility."
+        },
+        {
+          "type": "heading",
+          "text": "What Are AI Citations and Why Do They Matter?"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI citations are references or links to sources that an AI platform uses or presents to support its response."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, someone might ask ChatGPT:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Which digital marketing agency should I consider for ecommerce SEO?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The response could mention three agencies and link to their websites, service pages, case studies, or other relevant sources."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those links are important because they give users a way to check the information behind an AI-generated answer."
+        },
+        {
+          "type": "paragraph",
+          "text": "For brands, AI citations can help with:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brand discovery",
+            "Referral traffic",
+            "Trust and credibility",
+            "Product and service consideration",
+            "Visibility in AI-generated recommendations"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "However, a brand mention and a citation are not the same thing."
+        },
+        {
+          "type": "paragraph",
+          "text": "A platform might mention your brand without linking to your website. It might also cite a third-party article that discusses your business."
+        },
+        {
+          "type": "paragraph",
+          "text": "This means AI visibility is not just about getting your brand name mentioned. It is also about making your information easy to find, understand, and verify."
+        },
+        {
+          "type": "heading",
+          "text": "7 Factors That Influence Which Brands AI Platforms Cite"
+        },
+        {
+          "type": "subheading",
+          "text": "1. Your Website Provides Clear and Relevant Answers"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI platforms need information that directly addresses the user's question."
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine someone asks:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"What is the best window film for reducing heat in Indian cars?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "One website offers a general page about window films."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another explains how window films work, compares different types, discusses heat rejection, and answers common questions about vehicle applications."
+        },
+        {
+          "type": "paragraph",
+          "text": "Which page provides more useful evidence for that specific question?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The second page gives the reader more information to evaluate."
+        },
+        {
+          "type": "paragraph",
+          "text": "This does not mean longer content automatically gets cited. A short, accurate answer can be more useful than a lengthy article filled with unnecessary details."
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is to answer the question clearly."
+        },
+        {
+          "type": "paragraph",
+          "text": "For your website, this means:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Use descriptive headings.",
+            "Answer important questions directly.",
+            "Explain technical terms in simple language.",
+            "Include relevant examples.",
+            "Avoid vague claims that do not explain anything."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A page should help a reader understand the topic even if they have never heard of your brand."
+        },
+        {
+          "type": "subheading",
+          "text": "2. Your Claims Are Supported by Verifiable Evidence"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is one of the most important parts of AI visibility."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider these two statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Brand A offers the best SEO services in India.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Brand A provides technical SEO audits, ecommerce SEO, and content strategy. Its published case study describes how it improved organic traffic for a Shopify store over six months.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The first statement is a broad claim."
+        },
+        {
+          "type": "paragraph",
+          "text": "The second provides specific information that readers can investigate."
+        },
+        {
+          "type": "paragraph",
+          "text": "AI systems may retrieve and cite different sources depending on the question, but verifiable information gives them a stronger basis for presenting factual claims."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your website should include evidence wherever possible."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Original research",
+            "Case studies",
+            "Customer reviews",
+            "Product specifications",
+            "Expert explanations",
+            "Published reports",
+            "Clear service descriptions"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If you claim that your product improves performance, explain how you measured that improvement."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you claim that your agency helped a client grow, provide relevant data and describe the period being measured."
+        },
+        {
+          "type": "paragraph",
+          "text": "The more specific your evidence, the easier it becomes for readers to evaluate your claims."
+        },
+        {
+          "type": "subheading",
+          "text": "3. Other Reliable Sources Confirm Your Brand Information"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your website is not the only place where AI systems can find information about your business."
+        },
+        {
+          "type": "paragraph",
+          "text": "They may also encounter your brand through industry publications, review platforms, business directories, news articles, and other websites."
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine your website says that your company specializes in ecommerce SEO."
+        },
+        {
+          "type": "paragraph",
+          "text": "A respected industry publication discusses your ecommerce SEO work. A customer review mentions your Shopify expertise. Your business profile describes the same services."
+        },
+        {
+          "type": "paragraph",
+          "text": "These sources provide a more consistent picture of your brand."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is where corroboration matters."
+        },
+        {
+          "type": "paragraph",
+          "text": "Corroboration means that information can be supported by more than one relevant source."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, not every mention carries the same value."
+        },
+        {
+          "type": "paragraph",
+          "text": "A detailed review from a real customer may provide more useful evidence than dozens of generic directory listings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Similarly, an independent industry article may offer more credibility than a promotional post written by the brand itself."
+        },
+        {
+          "type": "paragraph",
+          "text": "Focus on earning relevant, genuine mentions rather than creating large numbers of low-quality listings."
+        },
+        {
+          "type": "subheading",
+          "text": "4. Your Brand Information Is Consistent Across the Web"
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine your website describes your business as an ecommerce SEO agency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your LinkedIn profile calls you a digital marketing consultant."
+        },
+        {
+          "type": "paragraph",
+          "text": "A directory lists your business as a web development company."
+        },
+        {
+          "type": "paragraph",
+          "text": "These descriptions may all be technically related, but they create an unclear picture."
+        },
+        {
+          "type": "paragraph",
+          "text": "What does your business actually specialize in?"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI systems can encounter these different descriptions when researching your brand."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consistent information can make it easier for people and search systems to understand your business."
+        },
+        {
+          "type": "paragraph",
+          "text": "Review the following:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brand name",
+            "Company description",
+            "Services",
+            "Location",
+            "Industry focus",
+            "Founder or team information",
+            "Website URL"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is particularly useful for businesses with multiple locations, parent companies, or several service categories."
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep your descriptions accurate. Do not force the same wording into every platform if it does not fit the context."
+        },
+        {
+          "type": "paragraph",
+          "text": "The aim is to communicate a consistent identity, not to repeat identical sentences everywhere."
+        },
+        {
+          "type": "subheading",
+          "text": "5. Your Content Is Easy to Crawl and Access"
+        },
+        {
+          "type": "paragraph",
+          "text": "Even useful content cannot help much if a search system cannot access it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Technical accessibility remains a basic requirement for AI search visibility."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a page might contain valuable product information, but important details could be hidden behind scripts, login requirements, or inaccessible website elements."
+        },
+        {
+          "type": "paragraph",
+          "text": "A website might also block relevant crawlers through its robots.txt file or hosting configuration."
+        },
+        {
+          "type": "paragraph",
+          "text": "For ChatGPT search, OpenAI identifies OAI-SearchBot as the crawler used to discover websites for search features. Website owners can manage crawler access through their technical settings. <Cite refs={[\"turn652397search1\",\"turn652397search6\"]}/>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Google also states that its AI search features rely on existing Search requirements and SEO fundamentals. Pages need to be indexed and eligible to appear in Google Search before they can be shown as supporting links in AI Overviews or AI Mode. <Cite refs={[\"turn652397search0\",\"turn652397search5\"]}/>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here are a few technical checks worth performing:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Confirm that important pages return a successful HTTP status.",
+            "Check whether relevant crawlers can access your website.",
+            "Review robots.txt directives.",
+            "Check canonical tags.",
+            "Ensure important content is available as readable text.",
+            "Maintain useful internal links.",
+            "Fix indexing issues."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A technically accessible website gives search systems a better opportunity to discover your content."
+        },
+        {
+          "type": "paragraph",
+          "text": "It does not guarantee a citation, but it removes avoidable barriers."
+        },
+        {
+          "type": "subheading",
+          "text": "6. Your Content Offers Something Different From Competitors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Let's say five agencies publish articles about technical SEO audits."
+        },
+        {
+          "type": "paragraph",
+          "text": "All five articles explain:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What a technical SEO audit is",
+            "Why it matters",
+            "Which tools to use",
+            "How to fix common issues"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If every article offers the same information, what makes one source more useful than another?"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is where original content matters."
+        },
+        {
+          "type": "paragraph",
+          "text": "Google's guidance for generative AI search emphasizes helpful, original information, firsthand experience, and content that offers value beyond what is already widely available. <Cite refs={[\"turn652397search5\",\"turn652397search12\"]}/>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your content could stand out through:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A real audit example",
+            "Original data",
+            "A detailed implementation checklist",
+            "Expert commentary",
+            "A comparison based on actual testing",
+            "Lessons learned from a client project"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, instead of publishing another generic article about ecommerce SEO, explain how a Shopify store handled duplicate product URLs, canonical tags, and collection-page indexing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Specific examples give readers something they can apply."
+        },
+        {
+          "type": "paragraph",
+          "text": "They also make your content less interchangeable with every other article on the topic."
+        },
+        {
+          "type": "subheading",
+          "text": "7. Your Website Builds Trust Through Expertise and Transparency"
+        },
+        {
+          "type": "paragraph",
+          "text": "A brand can publish useful information and still leave readers with questions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Who wrote this article?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Does the author have relevant experience?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Where did the data come from?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Can the reader verify the claims?"
+        },
+        {
+          "type": "paragraph",
+          "text": "These questions are closely related to Google's people-first content guidance and its emphasis on experience, expertise, authoritativeness, and trustworthiness."
+        },
+        {
+          "type": "paragraph",
+          "text": "E-E-A-T is not a single ranking factor or a direct AI citation score. It is a framework used to assess the quality and trustworthiness of information. <Cite refs={[\"turn652397search12\",\"turn652397search14\"]}/>"
+        },
+        {
+          "type": "paragraph",
+          "text": "For your website, practical ways to demonstrate credibility include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Add clear author biographies.",
+            "Explain relevant professional experience.",
+            "Link to reliable sources.",
+            "Publish original case studies.",
+            "Include dates when information needs updating.",
+            "Keep company and contact information accurate.",
+            "Correct outdated or misleading claims."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You do not need to make your content sound overly technical."
+        },
+        {
+          "type": "paragraph",
+          "text": "In fact, clear explanations often make expertise easier to recognize."
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is to help people understand why they should trust the information."
+        },
+        {
+          "type": "heading",
+          "text": "How to Improve AI Brand Citations Through GEO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Generative Engine Optimization (GEO) focuses on improving how a brand and its content appear in AI-generated search experiences."
+        },
+        {
+          "type": "paragraph",
+          "text": "It builds on SEO rather than replacing it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Google's published guidance says that existing SEO fundamentals remain relevant to its AI search features. It also advises website owners to focus on useful, reliable, people-first content instead of chasing special AI optimization tricks. <Cite refs={[\"turn652397search0\",\"turn652397search5\"]}/>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here is a practical approach."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 1. Identify the Questions Your Customers Ask AI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Think about the questions people ask before choosing your product or service."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an ecommerce SEO agency, these could include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Which agency is best for Shopify SEO?",
+            "How much does ecommerce SEO cost?",
+            "What should I look for in an SEO agency?",
+            "Which SEO tools are useful for Shopify stores?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Create content that answers these questions with useful information and evidence."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 2. Check Your Current AI Visibility"
+        },
+        {
+          "type": "paragraph",
+          "text": "Test relevant questions across ChatGPT, Gemini, and Perplexity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Record:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Whether your brand appears",
+            "Whether competitors appear",
+            "Which websites are cited",
+            "Which claims are made about your brand",
+            "Whether the cited sources support those claims"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Repeat the process over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "AI responses can vary by query, platform, and available information. A single test does not establish a permanent ranking position."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 3. Improve the Pages That Matter Most"
+        },
+        {
+          "type": "paragraph",
+          "text": "Review your main service pages, product pages, case studies, and educational content."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ask yourself:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Does this page answer a specific question?",
+            "Are the claims supported?",
+            "Is the information current?",
+            "Can visitors understand what we offer?",
+            "Is the page accessible to search crawlers?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Improve the pages that are important to your business and your customers."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 4. Build Relevant Third-Party Evidence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Look for genuine opportunities to earn mentions from relevant websites."
+        },
+        {
+          "type": "paragraph",
+          "text": "These could include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Industry publications",
+            "Expert interviews",
+            "Customer case studies",
+            "Relevant business associations",
+            "Product review websites",
+            "Industry-specific directories"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not focus on collecting mentions without considering their relevance."
+        },
+        {
+          "type": "paragraph",
+          "text": "A few useful, trustworthy sources can provide more meaningful evidence than a large number of unrelated mentions."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 5. Track Citations and Business Outcomes"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI visibility should not be measured only by the number of brand mentions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Track several indicators:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Metric",
+            "What It Helps You Understand"
+          ],
+          "rows": [
+            [
+              "AI Brand Mentions",
+              "How often your brand appears in AI responses"
+            ],
+            [
+              "AI Citations",
+              "How often your website or other sources are linked"
+            ],
+            [
+              "Citation Share",
+              "Your citation presence compared with selected competitors"
+            ],
+            [
+              "AI Referral Traffic",
+              "Visits arriving from AI platforms"
+            ],
+            [
+              "Assisted Conversions",
+              "Whether AI-referred visits contribute to conversions"
+            ],
+            [
+              "Brand Accuracy",
+              "Whether AI platforms describe your business correctly"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These measurements help you understand whether your GEO work is improving visibility and supporting business goals."
+        },
+        {
+          "type": "heading",
+          "text": "What Makes a Brand Easier for AI Systems to Trust and Cite?"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no single formula that guarantees AI citations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Different platforms use different systems, and their responses can change."
+        },
+        {
+          "type": "paragraph",
+          "text": "Still, the practical direction is clear."
+        },
+        {
+          "type": "paragraph",
+          "text": "Brands need to make their information easy to discover, understand, and verify."
+        },
+        {
+          "type": "paragraph",
+          "text": "That means:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Publish useful, original content.",
+            "Support claims with evidence.",
+            "Keep brand information consistent.",
+            "Make important pages technically accessible.",
+            "Build genuine third-party credibility.",
+            "Demonstrate relevant expertise.",
+            "Review AI-generated brand descriptions regularly."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The brands that focus on these fundamentals give people and AI search systems more useful information to work with."
+        },
+        {
+          "type": "heading",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "type": "heading",
+          "text": "1. Why does ChatGPT cite one brand and ignore another?"
+        },
+        {
+          "type": "paragraph",
+          "text": "ChatGPT may cite sources based on their relevance to the question, availability, and usefulness as supporting evidence. A competitor may provide clearer information or more relevant evidence for a specific query. Citation placement is not guaranteed."
+        },
+        {
+          "type": "heading",
+          "text": "2. What are AI citations in SEO?"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI citations are links or references to sources presented in AI-generated answers. They help users verify information and explore the sources behind a response."
+        },
+        {
+          "type": "heading",
+          "text": "3. How can I improve my brand's AI visibility?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Improve your website's technical accessibility, publish useful and original content, support claims with evidence, maintain consistent brand information, and earn relevant third-party mentions."
+        },
+        {
+          "type": "heading",
+          "text": "4. Does traditional SEO help with AI citations?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. Traditional SEO fundamentals remain relevant to AI search. Google states that its AI search features use existing Search systems and technical requirements."
+        },
+        {
+          "type": "heading",
+          "text": "5. Does schema markup guarantee AI citations?"
+        },
+        {
+          "type": "paragraph",
+          "text": "No. Structured data can help search systems understand page information, but it does not guarantee that an AI platform will cite your website. Google states that no special schema markup is required for AI Overviews or AI Mode."
+        },
+        {
+          "type": "heading",
+          "text": "6. What is the difference between an AI brand mention and an AI citation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A brand mention refers to your business by name. An AI citation provides a reference or link to a source. A platform can mention your brand without linking to your website."
+        },
+        {
+          "type": "heading",
+          "text": "7. How do I track AI citations?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Test relevant prompts across AI platforms, record which brands and sources appear, compare results over time, and review referral traffic where analytics data is available."
+        },
+        {
+          "type": "heading",
+          "text": "Final Thoughts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Why does AI cite one brand and ignore another?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes, the answer lies in content relevance. In other cases, it may involve technical accessibility, source quality, or the availability of supporting evidence."
+        },
+        {
+          "type": "paragraph",
+          "text": "A competitor might have a more useful explanation, a stronger case study, or more consistent information across trusted sources."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why GEO should not be treated as a shortcut to AI rankings."
+        },
+        {
+          "type": "paragraph",
+          "text": "The real work is building a brand that people can understand, verify, and trust."
+        },
+        {
+          "type": "paragraph",
+          "text": "AI citations are one possible outcome of that work. They are not a guaranteed result."
+        },
+        {
+          "type": "paragraph",
+          "text": "If your business wants to improve AI visibility, start by reviewing the information available about your brand and identifying where the evidence is missing."
+        },
+        {
+          "type": "heading",
+          "text": "Want to Know Why AI Platforms Are Citing Your Competitors?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A GEO audit can help you assess your website's AI visibility, identify content and technical gaps, review third-party brand evidence, and understand how AI platforms describe your business."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of guessing why competitors appear in AI-generated answers, you can build a clearer picture of what needs improvement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let's review your brand's digital evidence and identify practical opportunities to improve AI visibility."
+        }
+      ]
+    },
+    {
+      "category": "Technology",
+      "categoryColor": "#2dd4ff",
+      "readTime": "8 min read",
+      "title": "What Happens When Your CRM Can Take Action Instead of Just Store Data?",
+      "metaTitle": "What Happens When Your CRM Can Take Action Instead of Just Store Data?",
+      "metaDescription": "For years, businesses have used CRM systems to store customer details, track sales activity, and manage follow-ups. But storing information is only one part of the job.",
+      "excerpt": "For years, businesses have used CRM systems to store customer details, track sales activity, and manage follow-ups. But storing information is only one part of the job.",
+      "date": "27 Oct 2026",
+      "slug": "agentic-crm-take-action-instead-of-store-data",
+      "image": "/images/blog12_1.png",
+      "author": {
+        "name": "Dharmendra Pandit",
+        "role": "Founder & Head of Strategy",
+        "avatar": "/icon.png"
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "For years, businesses have used CRM systems to store customer details, track sales activity, and manage follow-ups. But storing information is only one part of the job. What if your CRM could understand a customer signal and take the next step without waiting for someone to click a button? That is where an agentic CRM comes in. It moves CRM from being a place where teams record information to a system that can act on it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Think about a lead who visits your pricing page three times, downloads a guide, and then replies to an email. A traditional CRM records these activities. An action-oriented CRM can interpret the signals, assess the lead's intent, and recommend or carry out a relevant next step."
+        },
+        {
+          "type": "paragraph",
+          "text": "This shift is changing how businesses approach sales, marketing, and customer support. The question is no longer just what your CRM knows. It is what your CRM can responsibly do with that knowledge."
+        },
+        {
+          "type": "heading",
+          "text": "What Is an Agentic CRM?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An agentic CRM is a customer relationship management system that uses AI agents to interpret customer information, make decisions within defined boundaries, and perform tasks across the customer lifecycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "A traditional CRM mainly stores and organizes data. An AI CRM may add predictive insights, content generation, or workflow automation. An agentic CRM takes this further by connecting customer signals to actions."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, it may:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identify a lead who appears ready to speak with sales.",
+            "Send a personalized follow-up based on the lead's activity.",
+            "Update a contact record after a customer interaction.",
+            "Create a support task when a customer reports a recurring issue.",
+            "Notify an account manager when an important customer shows signs of disengagement."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The system does not need to act without human involvement in every situation. In many cases, it should recommend an action or request approval first."
+        },
+        {
+          "type": "paragraph",
+          "text": "The defining feature is its ability to move from insight to action within a clear set of business rules."
+        },
+        {
+          "type": "heading",
+          "text": "1. It Turns Customer Signals Into Meaningful Actions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Customers leave signals across different channels. These signals can include website visits, email replies, product usage, support tickets, purchase history, and sales conversations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The challenge is that these signals often sit in separate tools."
+        },
+        {
+          "type": "paragraph",
+          "text": "An agentic CRM can bring relevant information together and use it to determine what should happen next."
+        },
+        {
+          "type": "subheading",
+          "text": "Example of a customer signal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine a B2B software company tracking a potential customer."
+        },
+        {
+          "type": "paragraph",
+          "text": "The prospect:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Visits the pricing page several times.",
+            "Opens a product comparison email.",
+            "Downloads a case study.",
+            "Returns to the website after a week."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A traditional CRM may show this activity in the contact timeline. A more action-oriented system can recognize a pattern that suggests buying interest."
+        },
+        {
+          "type": "paragraph",
+          "text": "It could then:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Increase the lead's priority.",
+            "Notify the assigned sales representative.",
+            "Prepare a personalized follow-up.",
+            "Suggest a meeting based on the prospect's previous interactions."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This does not mean every website visit signals purchase intent. The system needs context. A prospect researching a product for a school assignment should not receive the same treatment as someone evaluating vendors for an upcoming purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "That is why good CRM agents need both customer data and clear decision rules."
+        },
+        {
+          "type": "heading",
+          "text": "2. Autonomous Lead Nurturing Becomes More Personal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lead nurturing often depends on fixed email sequences."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a new lead receives an email on day one, another on day three, and a product offer on day seven. This approach is easy to manage, but it may not reflect what the lead actually does."
+        },
+        {
+          "type": "paragraph",
+          "text": "Autonomous lead nurturing uses customer behavior to decide when and how to continue a conversation."
+        },
+        {
+          "type": "paragraph",
+          "text": "An AI agent can respond to changes in customer intent instead of following only a fixed schedule."
+        },
+        {
+          "type": "subheading",
+          "text": "How it can work"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Customer behavior",
+            "Possible CRM action"
+          ],
+          "rows": [
+            [
+              "Downloads a beginner's guide",
+              "Send educational content"
+            ],
+            [
+              "Visits the pricing page",
+              "Offer a product consultation"
+            ],
+            [
+              "Replies with a specific question",
+              "Route the question to the right team"
+            ],
+            [
+              "Books a demo",
+              "Pause promotional emails"
+            ],
+            [
+              "Stops engaging",
+              "Reduce email frequency or change the nurture path"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is not to send more messages. It is to make each interaction more relevant."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if a lead books a demo, the CRM should not continue sending emails asking them to book one. That sounds obvious, but disconnected automation systems can create exactly this kind of experience."
+        },
+        {
+          "type": "paragraph",
+          "text": "An action-oriented CRM can use the latest customer signals to adjust the next step."
+        },
+        {
+          "type": "heading",
+          "text": "3. Sales Teams Spend Less Time on Routine Work"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sales representatives spend a significant part of their day updating records, preparing follow-ups, and checking task lists."
+        },
+        {
+          "type": "paragraph",
+          "text": "These activities matter, but they do not directly move every deal forward."
+        },
+        {
+          "type": "paragraph",
+          "text": "An agentic CRM can handle some of this routine work."
+        },
+        {
+          "type": "paragraph",
+          "text": "It may:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Summarize a sales call.",
+            "Update CRM fields based on the conversation.",
+            "Draft a follow-up email.",
+            "Create a task for the next meeting.",
+            "Identify missing information in a deal record.",
+            "Recommend the next action based on the sales stage."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a sales call where a prospect says they need approval from their finance team before moving forward."
+        },
+        {
+          "type": "paragraph",
+          "text": "The CRM agent could record the objection, update the deal notes, draft a follow-up message, and suggest a reminder for the expected approval date."
+        },
+        {
+          "type": "paragraph",
+          "text": "A representative can review the work rather than entering every detail manually."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is especially useful when teams handle a large number of opportunities. Still, the agent should not invent deal details or send sensitive messages without the required approval."
+        },
+        {
+          "type": "heading",
+          "text": "4. Customer Support Can Respond Before Problems Escalate"
+        },
+        {
+          "type": "paragraph",
+          "text": "CRM is not only about acquiring customers. It also helps businesses keep existing customers satisfied."
+        },
+        {
+          "type": "paragraph",
+          "text": "Support teams often receive warning signs before a customer complains directly. These might include repeated support tickets, delayed payments, reduced product usage, or unresolved technical problems."
+        },
+        {
+          "type": "paragraph",
+          "text": "Customer agents can monitor these signals and help the team respond."
+        },
+        {
+          "type": "paragraph",
+          "text": "For instance, if a customer submits three tickets about the same issue, the CRM could:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identify the recurring problem.",
+            "Combine relevant ticket details.",
+            "Assign the case to a specialist.",
+            "Notify the account manager.",
+            "Draft a customer update."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In some cases, an agent may resolve a straightforward issue by following an approved process. More complex cases should go to a human support representative."
+        },
+        {
+          "type": "paragraph",
+          "text": "The key is to reduce the time between identifying a problem and taking action."
+        },
+        {
+          "type": "heading",
+          "text": "5. Customer Retention Becomes More Proactive"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many businesses notice churn only after a customer cancels a subscription or stops buying."
+        },
+        {
+          "type": "paragraph",
+          "text": "By then, the opportunity to resolve the problem may have passed."
+        },
+        {
+          "type": "paragraph",
+          "text": "An agentic CRM can look for patterns that may indicate a customer is at risk. These could include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A drop in product usage.",
+            "Fewer purchases than usual.",
+            "Repeated complaints.",
+            "Missed renewal conversations.",
+            "A decline in engagement with account communications."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The system can use these signals to recommend a retention action."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a customer who has not used a key feature for a month may benefit from a training session. Another customer who has raised repeated billing concerns may need help from the finance team."
+        },
+        {
+          "type": "paragraph",
+          "text": "The response should depend on the reason behind the risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "A CRM should not automatically send a discount to every customer with a low engagement score. That may waste budget and fail to address the real issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead, the system should help teams understand what is happening and choose a useful next step."
+        },
+        {
+          "type": "heading",
+          "text": "6. CRM Workflows Become More Flexible Than Fixed Rules"
+        },
+        {
+          "type": "paragraph",
+          "text": "Traditional workflow automation usually follows a predefined structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "If a lead fills out a form, assign the lead to a sales representative."
+        },
+        {
+          "type": "paragraph",
+          "text": "This works well for predictable tasks. But customer journeys are rarely that simple."
+        },
+        {
+          "type": "paragraph",
+          "text": "An agentic CRM can combine multiple signals and select an action based on context."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a lead may:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fill out a form.",
+            "Visit the pricing page.",
+            "Ask a technical question.",
+            "Mention a specific business requirement."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The CRM agent can use this information to determine whether the lead needs a sales conversation, technical consultation, or additional educational content."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a major difference between rule-based automation and agent-based workflows."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Traditional CRM automation",
+            "Agentic CRM"
+          ],
+          "rows": [
+            [
+              "Follows predefined triggers",
+              "Interprets context and signals"
+            ],
+            [
+              "Executes fixed workflows",
+              "Selects from permitted actions"
+            ],
+            [
+              "Often requires manual workflow updates",
+              "Can adapt within defined boundaries"
+            ],
+            [
+              "Records customer activity",
+              "Connects activity to decisions and actions"
+            ],
+            [
+              "Relies heavily on static conditions",
+              "Can use multiple sources of customer context"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rule-based workflows will still matter. In fact, they can provide important boundaries for AI agents."
+        },
+        {
+          "type": "paragraph",
+          "text": "The future is likely to combine predictable automation with AI-driven decisions where context matters."
+        },
+        {
+          "type": "heading",
+          "text": "7. Human Oversight Becomes Part of the System"
+        },
+        {
+          "type": "paragraph",
+          "text": "A CRM that takes action needs more than access to customer data. It also needs clear limits."
+        },
+        {
+          "type": "paragraph",
+          "text": "Not every action should be fully autonomous."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, an agent may be allowed to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Draft a sales email.",
+            "Update a contact record.",
+            "Create a follow-up task.",
+            "Route a support ticket."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "But it may need approval before it:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sends a sensitive customer communication.",
+            "Offers a large discount.",
+            "Changes a contract.",
+            "Deletes customer information.",
+            "Makes a decision that could affect a customer's account access."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Businesses should define which actions an agent can perform, which actions require approval, and which actions are not allowed."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is where governance becomes part of CRM architecture."
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful system should also maintain an activity log showing:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What customer signal triggered the action.",
+            "Which data the agent used.",
+            "What action it selected.",
+            "Whether a person approved it.",
+            "What happened afterward."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This makes the system easier to review and helps teams identify errors before they become recurring problems."
+        },
+        {
+          "type": "heading",
+          "text": "How Will CRM Change When Workflows Become Autonomous?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The next stage of CRM is likely to focus less on managing individual tasks and more on coordinating customer journeys."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of asking a sales representative to check every lead manually, the CRM may identify which leads need attention and prepare the relevant actions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of waiting for a support manager to notice repeated complaints, the system may detect the pattern and route the issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of sending the same retention campaign to every customer, the CRM may recommend different actions based on each customer's situation."
+        },
+        {
+          "type": "paragraph",
+          "text": "This does not mean human teams will disappear. People will still need to handle judgment, relationships, complex decisions, and exceptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The role of the CRM may change from a system of record into a system that supports decisions and carries out approved work."
+        },
+        {
+          "type": "paragraph",
+          "text": "The biggest change will be how teams design their workflows. They will need to decide not only what data to collect, but also:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Which customer signals matter?",
+            "What action should follow each signal?",
+            "What decisions can an AI agent make?",
+            "When should a human step in?",
+            "How will the business measure whether the action worked?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These questions will become central to CRM planning."
+        },
+        {
+          "type": "heading",
+          "text": "How to Prepare Your CRM for Agent-Based Workflows?"
+        },
+        {
+          "type": "paragraph",
+          "text": "You do not need to automate every customer interaction at once."
+        },
+        {
+          "type": "paragraph",
+          "text": "Start with a focused use case and build from there."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 1. Identify repetitive customer tasks"
+        },
+        {
+          "type": "paragraph",
+          "text": "Look for work that takes time but follows a clear process."
+        },
+        {
+          "type": "paragraph",
+          "text": "Examples include lead assignment, follow-up reminders, call summaries, support ticket routing, and renewal alerts."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 2. Improve your customer data"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI agents depend on reliable information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Review your CRM for duplicate contacts, missing fields, outdated records, and inconsistent lifecycle stages. If the data is inaccurate, the agent may make poor decisions."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 3. Define action boundaries"
+        },
+        {
+          "type": "paragraph",
+          "text": "Decide which tasks the agent can complete independently and which need human approval."
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep the first set of actions small and easy to review."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 4. Connect the right systems"
+        },
+        {
+          "type": "paragraph",
+          "text": "A CRM agent may need information from your website, email platform, support system, billing tool, or product analytics platform."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your MarTech architecture should support secure data access and reliable information sharing between these systems."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 5. Measure the results"
+        },
+        {
+          "type": "paragraph",
+          "text": "Track practical outcomes such as:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Time saved per sales representative.",
+            "Lead response time.",
+            "Meeting booking rate.",
+            "Support resolution time.",
+            "Customer retention.",
+            "Percentage of agent actions approved or corrected by humans."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These measures will show whether the system is improving the customer experience or simply adding another layer of automation."
+        },
+        {
+          "type": "heading",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "type": "heading",
+          "text": "What is an agentic CRM?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An agentic CRM uses AI agents to understand customer signals, make decisions within defined boundaries, and perform tasks across sales, marketing, and customer support. It goes beyond storing customer information or following fixed workflows."
+        },
+        {
+          "type": "heading",
+          "text": "How is an agentic CRM different from an AI CRM?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An AI CRM may use AI for forecasting, recommendations, summaries, or content generation. An agentic CRM focuses on using AI to select and carry out actions based on customer context. The two terms can overlap, but action is the central idea behind agentic CRM."
+        },
+        {
+          "type": "heading",
+          "text": "Can an agentic CRM automate lead nurturing?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes. It can use customer behavior, engagement, and lifecycle stage to select relevant follow-ups. For example, it may send educational content to a new lead or alert a sales representative when a prospect shows strong buying interest."
+        },
+        {
+          "type": "heading",
+          "text": "Will agentic CRM replace sales and marketing teams?"
+        },
+        {
+          "type": "paragraph",
+          "text": "No. It can reduce repetitive work and help teams respond faster, but people still need to manage relationships, handle complex situations, review sensitive decisions, and set business priorities."
+        },
+        {
+          "type": "heading",
+          "text": "What data does an agentic CRM need?"
+        },
+        {
+          "type": "paragraph",
+          "text": "It may use contact details, purchase history, website activity, email engagement, sales conversations, support tickets, and product usage data. The exact data depends on the workflow and the permissions granted to the agent."
+        },
+        {
+          "type": "heading",
+          "text": "The Next CRM Advantage Will Come From Better Actions"
+        },
+        {
+          "type": "paragraph",
+          "text": "A CRM becomes more useful when it does more than record what happened."
+        },
+        {
+          "type": "paragraph",
+          "text": "It can help a business understand customer signals, choose the next step, and carry out routine work. That can make sales follow-ups more relevant, support more proactive, and retention efforts more timely."
+        },
+        {
+          "type": "paragraph",
+          "text": "Still, the value does not come from giving AI unlimited control. It comes from combining reliable customer data, clear workflows, defined permissions, and human oversight."
+        },
+        {
+          "type": "paragraph",
+          "text": "For businesses planning the next stage of their MarTech architecture, the real question is simple."
+        },
+        {
+          "type": "paragraph",
+          "text": "Can your CRM recognize what a customer needs and take the right action at the right time?"
+        },
+        {
+          "type": "paragraph",
+          "text": "That is the shift from storing customer data to acting on it."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you are reviewing your current CRM setup, start by mapping the customer signals, systems, and workflows that could benefit from agent-based action. A focused MarTech architecture review can help you identify where autonomous workflows make sense and where human approval should remain part of the process."
+        }
+      ]
     }
   ],
   "cta": {
