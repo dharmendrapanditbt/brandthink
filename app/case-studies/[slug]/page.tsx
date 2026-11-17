@@ -71,10 +71,9 @@ export default async function CaseStudyDetailPage({
           <img
             src={study.heroImage}
             alt={study.title}
-            loading="lazy"
-            decoding="async"
-            width={1920}
-            height={1080}
+            width={study.heroImageWidth}
+            height={study.heroImageHeight}
+            fetchPriority="high"
             className="block h-auto w-full grayscale-[45%] contrast-110"
           />
 

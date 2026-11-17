@@ -113,22 +113,18 @@ export default function ServicesShowcase() {
             <img
               ref={faceARef}
               alt=""
-              loading="lazy"
-              decoding="async"
-              width={800}
-              height={600}
-              className="absolute inset-0 h-full w-full object-cover"
+              width={1390}
+              height={1080}
+              className="absolute inset-0 h-full w-full  object-cover"
               style={{ backfaceVisibility: "hidden" }}
             />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               ref={faceBRef}
               alt=""
-              loading="lazy"
-              decoding="async"
-              width={800}
-              height={600}
-              className="absolute inset-0 h-full w-full object-cover"
+              width={1390}
+              height={1080}
+              className="absolute inset-0 h-full w-full  object-cover"
               style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
             />
           </div>
@@ -154,10 +150,9 @@ export default function ServicesShowcase() {
                 <img
                   src={item.image}
                   alt=""
+                  width={1390}
+                  height={1080}
                   loading="lazy"
-                  decoding="async"
-                  width={800}
-                  height={600}
                   className="h-full w-full object-cover"
                 />
               </div>

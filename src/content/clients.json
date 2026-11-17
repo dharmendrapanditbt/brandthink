@@ -26,100 +26,138 @@
       "name": "BJP",
       "slug": "bjp",
       "color": "#FF9933",
-      "logo": "/logos/bjp.png"
+      "logo": "/logos/bjp.webp",
+      "width": 75,
+      "height": 80
     },
     {
       "name": "Fixderma",
       "slug": "fixderma",
       "color": "#14B8A6",
-      "logo": "/logos/Fix%20Derma.png"
+      "logo": "/logos/Fix%20Derma.webp",
+      "width": 91,
+      "height": 80
     },
     {
       "name": "YOHO Footwear",
       "slug": "yoho-footwear",
       "color": "#F59E0B",
-      "logo": "/logos/yoho.png"
+      "logo": "/logos/yoho.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "Tally Education",
       "slug": "tally-education",
       "color": "#3B82F6",
-      "logo": "/logos/Tally%20Education.png"
+      "logo": "/logos/Tally%20Education.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "Adani",
       "color": "#8B5CF6",
-      "logo": "/logos/Adani.png"
+      "logo": "/logos/Adani.webp",
+      "width": 131,
+      "height": 80
     },
     {
       "name": "Apollo",
       "color": "#22C55E",
-      "logo": "/logos/Apollo.png"
+      "logo": "/logos/Apollo.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "Bajaj",
       "color": "#06B6D4",
-      "logo": "/logos/Bajaj.png"
+      "logo": "/logos/Bajaj.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "Flipkart",
       "color": "#EC4899",
-      "logo": "/logos/Flipkart.png"
+      "logo": "/logos/Flipkart.webp",
+      "width": 81,
+      "height": 80
     },
     {
       "name": "L'Oréal",
       "color": "#F59E0B",
-      "logo": "/logos/Loreal.png"
+      "logo": "/logos/Loreal.webp",
+      "width": 280,
+      "height": 51
     },
     {
       "name": "Max",
       "color": "#E8000E",
-      "logo": "/logos/Max.png"
+      "logo": "/logos/Max.webp",
+      "width": 65,
+      "height": 80
     },
     {
       "name": "Government of India",
       "color": "#FF9933",
-      "logo": "/logos/Goverment%20of%20india.png"
+      "logo": "/logos/Goverment%20of%20india.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "Good Day",
       "color": "#F59E0B",
-      "logo": "/logos/Good%20Day.png"
+      "logo": "/logos/Good%20Day.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "Sunfeast",
       "color": "#EC4899",
-      "logo": "/logos/Sunfeast.png"
+      "logo": "/logos/Sunfeast.webp",
+      "width": 86,
+      "height": 80
     },
     {
       "name": "GoodDot",
       "color": "#22C55E",
-      "logo": "/logos/Good%20Dot.png"
+      "logo": "/logos/Good%20Dot.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "AB Mauri",
       "color": "#3B82F6",
-      "logo": "/logos/AB%20Mauri.png"
+      "logo": "/logos/AB%20Mauri.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "AYCS",
       "color": "#A78BFA",
-      "logo": "/logos/aycs.png"
+      "logo": "/logos/aycs.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "IBFW",
       "color": "#06B6D4",
-      "logo": "/logos/Ibfw.png"
+      "logo": "/logos/Ibfw.webp",
+      "width": 180,
+      "height": 80
     },
     {
       "name": "Kenaz",
       "color": "#14B8A6",
-      "logo": "/logos/Kenaz.png"
+      "logo": "/logos/Kenaz.webp",
+      "width": 80,
+      "height": 80
     },
     {
       "name": "Nior",
       "color": "#8B5CF6",
-      "logo": "/logos/Nior.png"
+      "logo": "/logos/Nior.webp",
+      "width": 152,
+      "height": 80
     }
   ]
 }

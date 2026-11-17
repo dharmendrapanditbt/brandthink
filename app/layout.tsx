@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   title: {
-    default: "BrandThink — Growth Systems & Performance Marketing for Modern Brands",
+    default: "BrandThink | Growth Systems for Modern Brands and Businesses",
     template: "%s | BrandThink",
   },
   description: SITE_DESCRIPTION,
@@ -52,14 +52,14 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL,
     siteName: "BrandThink",
-    title: "BrandThink — Growth Systems for Modern Brands",
+    title: "BrandThink | Growth Systems for Modern Brands and Businesses",
     description: SITE_DESCRIPTION,
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "BrandThink" }],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "BrandThink — Growth Systems for Modern Brands",
+    title: "BrandThink | Growth Systems for Modern Brands and Businesses",
     description: SITE_DESCRIPTION,
     images: ["/og-image.jpg"],
   },
@@ -100,60 +100,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
         <meta name="google-site-verification" content="nI0TddYUZly_iSURipKMF1KNsC6yNlQ9t-LjhVtrDho" />
-        {/* Critical CSS inlined to prevent render-blocking delay and layout flash */}
-        <style
-          dangerouslySetInnerHTML={{
-            __html: `
-              :root {
-                --background: #0a0a0a;
-                --foreground: #ededed;
-                --color-dark-grey: #0a0a0a;
-                --color-off-grey: #161616;
-                --color-bt-red: #E8000E;
-                color-scheme: dark;
-              }
-              html {
-                background-color: #0a0a0a;
-                color: #ededed;
-                scrollbar-gutter: stable;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-              }
-              body {
-                margin: 0;
-                background-color: #0a0a0a;
-                color: #ededed;
-                overflow-x: hidden;
-              }
-              .hero-section {
-                min-height: 100vh;
-                background-color: #0a0a0a;
-                position: relative;
-              }
-            `,
-          }}
-        />
-        {/* Google tag (gtag.js) deferred to avoid blocking critical rendering path */}
-        <Script
-          strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-3WDXP0WKFG"
-        />
-        <Script
-          id="gtag-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
+      </head>
+      <body className={`${bebas.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}>
+        <MainSiteWrapper>{children}</MainSiteWrapper>
+        {/* Google tag (gtag.js) — loaded once the page has finished loading so it stays off the critical path */}
+        <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-3WDXP0WKFG" />
+        <Script id="gtag-init" strategy="lazyOnload">{`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-3WDXP0WKFG');
-`,
-          }}
-        />
-      </head>
-      <body className={`${bebas.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}>
-        <MainSiteWrapper>{children}</MainSiteWrapper>
+`}</Script>
       </body>
     </html>
   );

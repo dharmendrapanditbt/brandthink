@@ -168,10 +168,9 @@ export default function Problem() {
                     <img
                       src={item.image}
                       alt={item.title}
+                      width={360}
+                      height={450}
                       loading="lazy"
-                      decoding="async"
-                      width={600}
-                      height={800}
                       className="absolute inset-0 h-full w-full object-cover"
                     />
                   ) : (

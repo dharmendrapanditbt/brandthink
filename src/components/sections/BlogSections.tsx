@@ -128,10 +128,8 @@ export function BlogFeatured() {
             <img
               src={featured.image}
               alt={featured.title}
-              loading="lazy"
-              decoding="async"
               width={1200}
-              height={750}
+              height={675}
               className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 lg:hidden">
@@ -275,10 +273,9 @@ export function BlogGrid() {
                 <img
                   src={post.image}
                   alt={post.title}
+                  width={1200}
+                  height={675}
                   loading="lazy"
-                  decoding="async"
-                  width={640}
-                  height={400}
                   className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                 />
                 {/* Category badge overlay */}

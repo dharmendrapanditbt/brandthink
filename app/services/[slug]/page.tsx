@@ -98,11 +98,9 @@ export default async function ServiceDetailPage({
           <img
             src={service.image}
             alt={service.title}
-            loading="lazy"
-            decoding="async"
-            width={1200}
-            height={675}
-            className="mb-12 w-full h-auto object-cover"
+            width={1390}
+            height={1080}
+            className="mb-12 w-full object-cover"
           />
 
           <div className="flex flex-wrap gap-4">
