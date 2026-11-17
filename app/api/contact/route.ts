@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
+import { sendToPulse } from '@/lib/pulse';
 
 function makeTransport() {
   return nodemailer.createTransport({
@@ -20,6 +21,9 @@ export async function POST(req: NextRequest) {
     if (!name || !email || !message) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
     }
+
+    // Also record the message as a lead in BT Pulse. Best-effort: the email below goes out either way.
+    await sendToPulse('contact', { name, email, company, message, page: req.headers.get('referer') ?? undefined });
 
     makeTransport().sendMail({
       from: `"BrandThink Website" <${process.env.SMTP_USER}>`,
