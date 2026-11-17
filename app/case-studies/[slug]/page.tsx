@@ -7,6 +7,7 @@ import CaseStudyVisual from "@/components/sections/CaseStudyVisual";
 import Reveal from "@/components/ui/Reveal";
 import AnimatedCounter from "@/components/ui/AnimatedCounter";
 
+
 export function generateStaticParams() {
   return caseStudies.map((study) => ({ slug: study.slug }));
 }
@@ -25,7 +26,7 @@ export async function generateMetadata({
 
   const title = `${study.title} — ${study.project}`;
   const description = study.solution;
-  const url = `/case-studies/${study.slug}`;
+  const url = `/case-studies/${study.slug}/`;
   const image = study.heroImage || "/og-image.jpg";
 
   return {
@@ -70,6 +71,10 @@ export default async function CaseStudyDetailPage({
           <img
             src={study.heroImage}
             alt={study.title}
+            loading="lazy"
+            decoding="async"
+            width={1920}
+            height={1080}
             className="block h-auto w-full grayscale-[45%] contrast-110"
           />
 

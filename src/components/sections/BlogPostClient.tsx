@@ -7,6 +7,7 @@ import Reveal from "@/components/ui/Reveal";
 import DecryptText from "@/components/ui/DecryptText";
 import HoverFlipText from "@/components/ui/HoverFlipText";
 import CaseStudiesCTA from "@/components/sections/CaseStudiesCTA";
+import { formatIsoDate } from "@/lib/utils";
 
 interface Author {
   name: string;
@@ -33,6 +34,7 @@ export interface BlogPostData {
   metaDescription?: string;
   excerpt: string;
   date: string;
+  updatedDate?: string;
   slug: string;
   image: string;
   author?: Author;
@@ -102,7 +104,7 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
 
       {/* Header Section */}
       <motion.header
-        initial={{ opacity: 0, y: 24 }}
+        initial={false}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 1.1 }}
         className="pb-12 pt-36 px-6 md:px-12 lg:px-20 max-w-5xl mx-auto"
@@ -140,8 +142,27 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
             <p className="text-[11px] text-light-grey">Growth Field Notes</p>
           </div>
 
-          <div className="flex items-center gap-6">
-            <span className="font-mono text-light-grey">{post.date}</span>
+          <div className="flex flex-wrap items-center gap-3 sm:gap-5">
+            <div className="flex items-center gap-1.5 font-mono text-light-grey">
+              <span className="text-white/40">Published:</span>
+              <time dateTime={formatIsoDate(post.date)} className="text-white/90">
+                {post.date}
+              </time>
+            </div>
+
+            {post.updatedDate && (
+              <>
+                <span className="text-white/20">•</span>
+                <div className="flex items-center gap-1.5 font-mono text-light-grey">
+                  <span className="text-bt-red font-medium">Last Updated:</span>
+                  <time dateTime={formatIsoDate(post.updatedDate)} className="text-white font-medium">
+                    {post.updatedDate}
+                  </time>
+                </div>
+              </>
+            )}
+
+            <span className="text-white/20">•</span>
             <button
               onClick={handleShare}
               className="group inline-flex items-center gap-2 text-xs uppercase tracking-wider text-bt-red transition-colors hover:text-white"
@@ -154,7 +175,7 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
 
       {/* Featured Header Image */}
       <motion.div
-        initial={{ opacity: 0, y: 30 }}
+        initial={false}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.35 }}
         className="max-w-5xl mx-auto px-6 md:px-12 lg:px-20 mb-16"
@@ -164,6 +185,10 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
           <img
             src={post.image}
             alt={post.title}
+            loading="lazy"
+            decoding="async"
+            width={1200}
+            height={675}
             className="h-full w-full object-cover"
           />
         </div>
@@ -306,6 +331,10 @@ export default function BlogPostClient({ post, relatedPosts }: BlogPostClientPro
                     <img
                       src={relPost.image}
                       alt={relPost.title}
+                      loading="lazy"
+                      decoding="async"
+                      width={640}
+                      height={400}
                       className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                     <div className="absolute left-0 top-0 p-3">

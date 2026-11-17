@@ -21,7 +21,7 @@ export async function generateMetadata({
 
   const title = service.title;
   const description = service.description;
-  const url = `/services/${slug}`;
+  const url = `/services/${slug}/`;
 
   return {
     title,
@@ -98,7 +98,11 @@ export default async function ServiceDetailPage({
           <img
             src={service.image}
             alt={service.title}
-            className="mb-12 w-full object-cover"
+            loading="lazy"
+            decoding="async"
+            width={1200}
+            height={675}
+            className="mb-12 w-full h-auto object-cover"
           />
 
           <div className="flex flex-wrap gap-4">

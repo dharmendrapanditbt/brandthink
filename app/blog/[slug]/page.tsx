@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import SplashCursor from "@/components/ui/SplashCursor";
 import BlogPostClient, { BlogPostData } from "@/components/sections/BlogPostClient";
 import blogData from "@/content/blog.json";
+import { formatIsoDate } from "@/lib/utils";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -46,12 +47,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title,
     description,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: { canonical: `/blog/${post.slug}/` },
     openGraph: {
       title,
       description,
-      url: `/blog/${post.slug}`,
+      url: `/blog/${post.slug}/`,
       type: "article",
+      publishedTime: formatIsoDate(post.date),
+      modifiedTime: formatIsoDate(post.updatedDate || post.date),
       images: [
         {
           url: post.image,
@@ -84,20 +87,21 @@ export default async function BlogPostPage({ params }: PageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": post.metaTitle || post.title,
-    "description": post.metaDescription || post.excerpt,
-    "image": post.image,
-    "datePublished": post.date,
-    "author": {
+    headline: post.metaTitle || post.title,
+    description: post.metaDescription || post.excerpt,
+    image: post.image,
+    datePublished: formatIsoDate(post.date),
+    dateModified: formatIsoDate(post.updatedDate || post.date),
+    author: {
       "@type": "Person",
-      "name": post.author?.name || "BrandThink",
+      name: post.author?.name || "BrandThink",
     },
-    "publisher": {
+    publisher: {
       "@type": "Organization",
-      "name": "BrandThink",
-      "logo": {
+      name: "BrandThink",
+      logo: {
         "@type": "ImageObject",
-        "url": "/brandthink-logo.webp",
+        url: "/brandthink-logo.webp",
       },
     },
   };

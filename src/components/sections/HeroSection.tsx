@@ -3,6 +3,9 @@
 export default function HeroSection() {
   return (
     <section className="relative flex items-center overflow-hidden bg-dark-grey pt-20 hero-section">
+      <h1 className="sr-only">
+        BrandThink — Growth Systems &amp; Performance Marketing for Modern Brands
+      </h1>
       <video
         className="relative left-1/2 h-[calc(100dvh-5rem)] w-auto max-w-none -translate-x-1/2 sm:static sm:left-auto sm:block sm:aspect-auto sm:h-auto sm:w-full sm:max-w-full sm:translate-x-0"
         src="/Banner_Video.mp4"

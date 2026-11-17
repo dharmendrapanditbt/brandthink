@@ -127,7 +127,7 @@ function LeadForm({ primary = false, budgetOptions, location }: { primary?: bool
         <label className="btl-lbl" htmlFor="Description">Tell Us About Your Project <span className="btl-req">*</span></label>
         <textarea id="Description" name="Description" className="btl-ta" rows={4} required disabled={status === 'sending'} />
       </div>
-      {status === 'error' && <p style={{ color: '#e53e3e', fontSize: '0.85rem', marginBottom: '0.75rem' }}>Something went wrong. Please try again or call us directly.</p>}
+      {status === 'error' && <p className="btl-form-error">Something went wrong. Please try again or call us directly.</p>}
       <button type="submit" className="btl-submit" disabled={status === 'sending'}>{status === 'sending' ? 'Submitting…' : 'Submit'}</button>
     </form>
   );
@@ -148,7 +148,7 @@ function Nav() {
       {open && (
         <div className="btl-mob">
           {links.map(l => <a key={l.label} href={l.href} onClick={() => setOpen(false)}>{l.label}</a>)}
-          <a href="#form" className="btl-nav-cta" style={{ width: 'fit-content' }}>Get a Free Quote now</a>
+          <a href="#form" className="btl-nav-cta btl-nav-cta--fit">Get a Free Quote now</a>
         </div>
       )}
     </nav>

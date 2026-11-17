@@ -58,6 +58,8 @@ export default function Navbar() {
           <img
             src="/brandthink-logo.webp"
             alt={logo}
+            width={64}
+            height={64}
             className="h-full w-auto"
           />
         </Link>

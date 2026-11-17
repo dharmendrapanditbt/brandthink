@@ -76,9 +76,9 @@ export default function TechStack() {
                       className="mb-4 text-bt-red"
                     />
 
-                    <h3 className="mb-3 text-xl bebas text-white sm:text-2xl">
+                    <h2 className="mb-3 text-xl bebas text-white sm:text-2xl">
                       {category.title}
-                    </h3>
+                    </h2>
 
                     <p className="mb-4 text-sm leading-relaxed text-light-grey">
                       {category.description}

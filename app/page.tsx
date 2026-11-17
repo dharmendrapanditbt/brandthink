@@ -6,6 +6,7 @@ import Methodology from "@/components/sections/Methodology";
 import CaseStudies from "@/components/sections/CaseStudies";
 import CTA from "@/components/sections/CTA";
 import Clients from "@/src/components/sections/Clients";
+import FAQ from "@/components/sections/FAQ";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Technology />
       <Methodology />
       {/* <AboutTimeline /> */}
+      <FAQ />
       <CTA />
     </main>
   );

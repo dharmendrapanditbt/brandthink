@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import Reveal from "@/components/ui/Reveal";
@@ -66,9 +66,9 @@ export default function Technology() {
                     {metric.label}
                   </p>
 
-                  <h3 className="bebas text-4xl text-white sm:text-5xl">
+                  <div className="bebas text-4xl text-white sm:text-5xl">
                     <AnimatedCounter value={metric.value} />
-                  </h3>
+                  </div>
 
                   <p className="mt-3 text-sm text-green-500">
                     {metric.delta}

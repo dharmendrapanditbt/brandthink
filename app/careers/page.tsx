@@ -44,9 +44,9 @@ export default function Careers() {
 
           <div className="flex flex-col gap-8">
             <div className="border border-grey-1 bg-grey-2 p-8">
-              <p className="mb-6 text-xs uppercase tracking-[0.2em] text-bt-red">
+              <h2 className="mb-6 text-xs uppercase tracking-[0.2em] text-bt-red">
                 How We Hire
-              </p>
+              </h2>
 
               <div className="space-y-6">
                 {content.hiringProcess.map((step) => (

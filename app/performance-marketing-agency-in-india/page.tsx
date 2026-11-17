@@ -171,7 +171,7 @@ function LeadForm({ primary = false }: { primary?: boolean }) {
         <textarea id="Description" name="Description" className="btl-ta" rows={4} required disabled={status === 'sending'} />
       </div>
       {status === 'error' && (
-        <p style={{ color: '#e53e3e', fontSize: '0.85rem', marginBottom: '0.75rem' }}>
+        <p className="btl-form-error">
           Something went wrong. Please try again or call us directly.
         </p>
       )}
@@ -195,7 +195,7 @@ function Nav() {
   return (
     <nav className="btl-nav">
       <div className="btl-nav-inner">
-        <a href="#" className="btl-logo"><img src="/images/BrandThink_Logo.png" alt="BrandThink" /></a>
+        <a href="#" className="btl-logo"><img src="/images/BrandThink_Logo.png" alt="BrandThink" width={129} height={94} /></a>
         <ul className="btl-links">
           {links.map(l => <li key={l.label}><a href={l.href}>{l.label}</a></li>)}
         </ul>
@@ -207,7 +207,7 @@ function Nav() {
       {open && (
         <div className="btl-mob">
           {links.map(l => <a key={l.label} href={l.href} onClick={() => setOpen(false)}>{l.label}</a>)}
-          <a href="#form" className="btl-nav-cta" style={{ width: 'fit-content' }}>Get a Free Quote now</a>
+          <a href="#form" className="btl-nav-cta btl-nav-cta--fit">Get a Free Quote now</a>
         </div>
       )}
     </nav>
@@ -244,7 +244,7 @@ function Hero() {
             {HERO_BADGES.map(b => (
               <div className="btl-badge" key={b.title}>
                 <h3 className="btl-badge-title">{b.title}</h3>
-                <figure className="btl-badge-img"><img src={b.img} alt="" /></figure>
+                <figure className="btl-badge-img"><img src={b.img} alt="" width={60} height={60} loading="lazy" decoding="async" /></figure>
               </div>
             ))}
           </div>
@@ -259,7 +259,7 @@ function Hero() {
           <h6 className="btl-trusted-lbl">Trusted by</h6>
           <div className="btl-trusted-grid">
             {TRUSTED.map(t => (
-              <div className="btl-trusted-cell" key={t.alt}><img src={t.src} alt={t.alt} /></div>
+              <div className="btl-trusted-cell" key={t.alt}><img src={t.src} alt={t.alt} width={140} height={40} loading="lazy" decoding="async" /></div>
             ))}
           </div>
         </div>
@@ -279,7 +279,7 @@ function About() {
         <h2 className="btl-about-h2">Eliminating Friction to Drive Predictable Performance</h2>
         <div className="btl-about-cols">
           <div className="btl-about-img-wrap">
-            <img src="/images/about-team.jpeg" alt="BrandThink analytics dashboard" />
+            <img src="/images/about-team.jpeg" alt="BrandThink analytics dashboard" width={601} height={514} loading="lazy" decoding="async" />
           </div>
           <div className="btl-about-body">
             <p>
@@ -318,7 +318,7 @@ function Services() {
         <div className="btl-services-left">
           <h4 className="btl-services-eyebrow">Our Services</h4>
           <h2 className="btl-services-h2">Channels We Optimize for Predictable Customer Acquisition</h2>
-          <img className="btl-services-img" src="/images/management-image.png" alt="Strategy illustration" />
+          <img className="btl-services-img" src="/images/management-image.png" alt="Strategy illustration" width={457} height={377} loading="lazy" decoding="async" />
           <a href="#form" className="btl-link-btn"><CaretRight /><span>DESIGN YOUR STRATEGY</span></a>
         </div>
         <div className="btl-svc-grid">
@@ -451,7 +451,7 @@ function MultiPlatform() {
           {PLATFORMS.map(p => (
             <div className="btl-plat-col" key={p.name}>
               <div className="btl-plat-tag">{p.icon}<span>{p.name}</span></div>
-              <img className="btl-plat-img" src={p.img} alt={p.name} />
+              <img className="btl-plat-img" src={p.img} alt={p.name} width={500} height={300} loading="lazy" decoding="async" />
               <h3 className="btl-plat-title">{p.title}</h3>
               <p className="btl-plat-desc">{p.desc}</p>
             </div>
@@ -537,7 +537,7 @@ function CTABand() {
           <a href="#booking" className="btl-link-btn"><CaretRight /><span>Schedule a Strategy Session With Us</span></a>
         </div>
         <div className="btl-cta-right">
-          <img src="/images/banner-shape1.png" alt="" />
+          <img src="/images/banner-shape1.png" alt="" width={306} height={305} loading="lazy" decoding="async" />
         </div>
       </div>
     </section>
@@ -669,7 +669,7 @@ function FaqAndBooking() {
           <a href="#booking-form" className="btl-plat-btn btl-faq-cta"><ArrowUpRight /><span>Request A Quote Today</span></a>
         </div>
         <aside className="btl-faq-right" id="booking-form">
-          <h1 className="btl-booking-h1">Book Your Free Consultation Now</h1>
+          <h2 className="btl-booking-h1">Book Your Free Consultation Now</h2>
           <div className="btl-booking-form"><LeadForm /></div>
         </aside>
       </div>

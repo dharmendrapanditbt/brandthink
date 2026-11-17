@@ -1,0 +1,35 @@
+{
+  "eyebrow": "Frequently Asked Questions",
+  "heading": {
+    "line1": "Clear Answers for",
+    "highlight": "Ambitious Brands."
+  },
+  "subtitle": "Everything you need to know about how BrandThink designs, builds, and scales modern growth systems.",
+  "items": [
+    {
+      "question": "What makes BrandThink different from traditional marketing or social media agencies?",
+      "answer": "BrandThink operates as an integrated growth partner that builds connected systems across MarTech, AI, creative, and performance marketing, rather than selling isolated post deliverables or ad campaigns.",
+      "detail": "Traditional agencies create fragmented one-off content that restarts from zero every month. In contrast, we engineer compounding growth infrastructure where your brand strategy, first-party data, customer acquisition funnels, and automated workflows work together to drive measurable revenue."
+    },
+    {
+      "question": "How does BrandThink integrate AI and MarTech into daily marketing operations?",
+      "answer": "We deploy custom AI agents, automated workflow pipelines, server-side attribution, and proprietary ORM platforms to optimize marketing performance in real time.",
+      "detail": "By replacing manual guesswork with machine intelligence, we accelerate multi-variant creative testing, automate CRM journeys, and eliminate wasted ad spend while giving your executive team real-time visibility into pipeline velocity and unit economics."
+    },
+    {
+      "question": "What types of companies and brands do you work with?",
+      "answer": "We partner with ambitious modern brands, high-growth D2C companies, enterprise scale-ups, and category leaders looking to build predictable distribution channels.",
+      "detail": "Our growth systems are purpose-built for businesses with product-market fit that want to scale revenue efficiently. Whether you need narrative command during major campaigns or full-funnel performance marketing, we tailor the infrastructure to your growth stage."
+    },
+    {
+      "question": "How quickly do we see measurable business results?",
+      "answer": "Initial performance efficiency, conversion rate improvements, and attribution fixes typically show measurable impact within the first 30 to 45 days.",
+      "detail": "Full compounding growth systems—where content distribution, creator partnerships, and automated retention loops work in tandem—mature over a 90-day cycle. We prioritize high-impact unit-economic optimizations first so your ad spend delivers immediate capital efficiency."
+    },
+    {
+      "question": "What does an engagement model with BrandThink look like?",
+      "answer": "We work through dedicated monthly growth partnership retainers and sprint-based system implementations customized to your scale and objectives.",
+      "detail": "Every engagement begins with an end-to-end diagnostic growth audit of your current channels, tech stack, and customer journey. From there, we deploy a dedicated team of strategists, performance marketers, and creative engineers who work as an extension of your internal team."
+    }
+  ]
+}

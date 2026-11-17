@@ -10,6 +10,7 @@ import DecryptText from "@/components/ui/DecryptText";
 import HoverFlipText from "@/components/ui/HoverFlipText";
 import CaseStudiesCTA from "@/components/sections/CaseStudiesCTA";
 import content from "@/content/blog.json";
+import { formatIsoDate } from "@/lib/utils";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -54,7 +55,7 @@ export function BlogHero() {
     <section className="bg-dark-grey pb-16 pt-40">
       <div className="mx-auto flex flex-col items-center px-6 text-center md:px-12 lg:px-20">
         <motion.p
-          initial={{ opacity: 0, y: 12 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1.0 }}
           data-text={content.eyebrow}
@@ -75,7 +76,7 @@ export function BlogHero() {
         </h1>
 
         <motion.p
-          initial={{ opacity: 0, y: 16 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.5 }}
           className="max-w-2xl text-base text-light-grey sm:text-lg"
@@ -127,6 +128,10 @@ export function BlogFeatured() {
             <img
               src={featured.image}
               alt={featured.title}
+              loading="lazy"
+              decoding="async"
+              width={1200}
+              height={750}
               className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 lg:hidden">
@@ -164,9 +169,12 @@ export function BlogFeatured() {
             </p>
 
             <div className="flex items-center justify-between">
-              <span className="font-mono text-xs text-light-grey">
+              <time
+                dateTime={formatIsoDate(featured.date)}
+                className="font-mono text-xs text-light-grey"
+              >
                 {featured.date}
-              </span>
+              </time>
               <Link
                 href={`/blog/${featured.slug}`}
                 className="group inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.15em] text-bt-red transition-colors hover:text-white"
@@ -267,6 +275,10 @@ export function BlogGrid() {
                 <img
                   src={post.image}
                   alt={post.title}
+                  loading="lazy"
+                  decoding="async"
+                  width={640}
+                  height={400}
                   className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                 />
                 {/* Category badge overlay */}
@@ -306,9 +318,12 @@ export function BlogGrid() {
                 </p>
 
                 <div className="mt-auto flex items-center justify-between border-t border-grey-1 pt-4">
-                  <span className="font-mono text-[11px] text-light-grey">
+                  <time
+                    dateTime={formatIsoDate(post.date)}
+                    className="font-mono text-[11px] text-light-grey"
+                  >
                     {post.date}
-                  </span>
+                  </time>
                   <Link
                     href={`/blog/${post.slug}`}
                     className="group inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-light-grey transition-colors hover:text-bt-red"

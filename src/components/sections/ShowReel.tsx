@@ -82,6 +82,10 @@ export default function ShowReel() {
               <img
                 src="/showreel-poster.jpg"
                 alt={`${content.heading.line1} ${content.heading.highlight}`}
+                loading="lazy"
+                decoding="async"
+                width={848}
+                height={480}
                 className="absolute inset-0 h-full w-full object-cover grayscale-[35%] contrast-110 transition-all duration-500 group-hover:grayscale-0"
               />
 

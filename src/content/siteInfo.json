@@ -1,13 +1,13 @@
 {
   "logo": "BrandThink",
-  "email": "adityaraj@thebrandthink.com",
+  "email": "hello@thebrandthink.com",
   "phone": "+91 9571361543",
   "phoneHref": "tel:+919571361543",
   "addressDisplay": "Kolkata, India",
   "addressLocality": "Kolkata",
   "addressCountry": "IN",
   "contactDetails": [
-    { "label": "adityaraj@thebrandthink.com", "href": "mailto:adityaraj@thebrandthink.com" },
+    { "label": "Email", "href": "mailto:adityaraj@thebrandthink.com" },
     { "label": "+91 9571361543", "href": "tel:+919571361543" },
     { "label": "Kolkata, India", "href": null }
   ],

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/sections/ContactForm";
 import siteInfo from "@/content/siteInfo.json";
+import ProtectedEmail from "@/components/ui/ProtectedEmail";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -63,13 +64,17 @@ export default function Contact() {
 
           <div className="flex flex-col gap-8">
             <div className="border border-grey-1 bg-grey-2 p-8">
-              <p className="mb-4 text-xs uppercase tracking-[0.2em] text-bt-red">
+              <h2 className="mb-4 text-xs uppercase tracking-[0.2em] text-bt-red">
                 Contact Details
-              </p>
+              </h2>
 
               <ul className="space-y-2">
                 {contactDetails.map((item) =>
-                  item.href ? (
+                  item.href?.startsWith("mailto:") ? (
+                    <li key="contact-email">
+                      <ProtectedEmail className="text-light-grey transition-colors hover:text-white" />
+                    </li>
+                  ) : item.href ? (
                     <li key={item.label}>
                       <a
                         href={item.href}
@@ -88,9 +93,9 @@ export default function Contact() {
             </div>
 
             <div className="border border-grey-1 bg-grey-2 p-8">
-              <p className="mb-6 text-xs uppercase tracking-[0.2em] text-bt-red">
+              <h2 className="mb-6 text-xs uppercase tracking-[0.2em] text-bt-red">
                 What Happens Next
-              </p>
+              </h2>
 
               <div className="space-y-6">
                 {nextSteps.map((step) => (

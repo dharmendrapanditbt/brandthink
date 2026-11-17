@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useBookCallModal } from "@/components/ui/BookCallModal";
 import content from "@/content/footer.json";
 import siteInfo from "@/content/siteInfo.json";
+import ProtectedEmail from "@/components/ui/ProtectedEmail";
 
 const { tagline, copyright, columnLabels } = content;
 const { logo, contactDetails, socials } = siteInfo;
@@ -27,12 +28,12 @@ export default function Footer() {
       <div className="mx-auto px-6 py-16 md:px-12 lg:px-20 lg:py-20">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
           <div>
-            <h2
+            <div
               data-text={logo}
               className="glitch-hover bebas mb-4 text-2xl uppercase text-bt-red sm:text-3xl"
             >
               {logo}
-            </h2>
+            </div>
 
             <p className="mb-8 max-w-sm text-light-grey">
               {tagline}
@@ -40,7 +41,11 @@ export default function Footer() {
 
             <ul className="space-y-2">
               {contactDetails.map((item) =>
-                item.href ? (
+                item.href?.startsWith("mailto:") ? (
+                  <li key="contact-email">
+                    <ProtectedEmail className="text-light-grey transition-colors hover:text-white" />
+                  </li>
+                ) : item.href ? (
                   <li key={item.label}>
                     <Link
                       href={item.href}
@@ -127,8 +132,15 @@ export default function Footer() {
       </div>
 
       <div className="relative w-full overflow-hidden border-t border-grey-1">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/footer_Idea_6.gif" alt={logo} className="block w-full" />
+        <img
+          src="/footer_Idea_6.gif"
+          alt={logo}
+          loading="lazy"
+          decoding="async"
+          width={2560}
+          height={500}
+          className="block w-full h-auto"
+        />
       </div>
 
       <div className="mx-auto flex flex-col items-center justify-between gap-4 border-t border-grey-1 px-6 py-8 sm:flex-row md:px-12 lg:px-20">

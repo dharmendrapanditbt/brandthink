@@ -1,4 +1,3 @@
-import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import caseStudies from "@/content/caseStudies.json";
@@ -53,11 +52,6 @@ export default function CaseStudiesPage() {
               <Link
                 href={`/case-studies/${study.slug}`}
                 className="glow-border scan-hover flex h-full flex-col border border-grey-1 bg-grey-2 transition-colors hover:border-grey-1 hover:bg-off-grey"
-                style={
-                  {
-                    "--border-delay": `-${(Math.random() * 7).toFixed(2)}s`,
-                  } as CSSProperties
-                }
               >
                 <CaseStudyVisual
                   icon={study.icon}
