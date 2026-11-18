@@ -519,6 +519,622 @@
   ],
   "posts": [
     {
+      "category": "Technology",
+      "categoryColor": "#2dd4ff",
+      "readTime": "8 min read",
+      "title": "Google AI Mode Changes the SEO Game: What Should Brands Optimise for Next?",
+      "metaTitle": "Google AI Mode Changes the SEO Game: What Should Brands Optimise for Next?",
+      "metaDescription": "Google Search is changing, and brands need to rethink how they approach SEO. Ranking on the first page is still valuable, but is it enough when Google can answer a user's question directly?",
+      "excerpt": "Google Search is changing, and brands need to rethink how they approach SEO. Ranking on the first page is still valuable, but is it enough when Google can answer a user's question directly?",
+      "date": "18 Nov 2026",
+      "slug": "google-ai-mode-seo-what-should-brands-optimise-for-next",
+      "image": "/images/blog15_1.webp",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Google Search is changing, and brands need to rethink how they approach SEO. With AI Mode becoming a bigger part of the search experience, users can now ask detailed questions, compare different options and get AI-generated answers without opening multiple websites. This shift makes Google AI Mode SEO an important topic for businesses that want to maintain their search visibility. Ranking on the first page is still valuable, but is it enough when Google can answer a user's question directly?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The way people search is changing. Instead of typing short keywords like \"best digital marketing agency\", users may ask, \"Which digital marketing agency offers SEO and GEO services, what should I look for before hiring one, and how can I measure results?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Google AI Mode can explore different parts of such questions and generate a response with links to supporting websites."
+        },
+        {
+          "type": "paragraph",
+          "text": "For brands, this means content needs to do more than include keywords. It needs to answer questions, provide useful information and give people a reason to trust the source."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let's understand what this means for SEO and what brands should focus on next."
+        },
+        {
+          "type": "heading",
+          "text": "1. What Is Google AI Mode and Why Does It Matter for SEO?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Google AI Mode is an AI-powered search experience that helps users explore complex questions through conversational answers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike traditional search, where users receive a list of website links, AI Mode can generate a detailed response with supporting links to relevant websites."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, someone looking for a digital marketing agency might ask:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Which SEO services should a growing business consider?",
+            "What is the difference between SEO and GEO?",
+            "How can a brand improve its visibility on AI platforms?",
+            "How long does SEO usually take to show results?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of treating these as completely separate searches, AI Mode can explore different parts of the same topic."
+        },
+        {
+          "type": "paragraph",
+          "text": "This changes how brands should approach content."
+        },
+        {
+          "type": "paragraph",
+          "text": "A website should not only target one primary keyword. It should also cover related questions, comparisons and supporting information that users may need before making a decision."
+        },
+        {
+          "type": "paragraph",
+          "text": "Businesses looking to improve their search presence can also explore BrandThink's digital marketing and brand solutions to understand how different digital services support online visibility."
+        },
+        {
+          "type": "heading",
+          "text": "2. Understand Query Fan-Out and How It Changes Content Strategy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Query fan-out is one of the most interesting parts of Google's AI search experience."
+        },
+        {
+          "type": "paragraph",
+          "text": "In simple terms, Google breaks a user's main question into multiple related searches. It then explores different subtopics and sources to build a more complete answer."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, consider the search query:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"How can a business improve its website's AI visibility?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Google may explore related questions such as:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What is Generative Engine Optimization?",
+            "How does Answer Engine Optimization work?",
+            "How do AI platforms discover website content?",
+            "Does structured data help search engines understand a brand?",
+            "How can businesses monitor AI search visibility?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These supporting searches help Google understand the topic from different angles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Google also explains this process in its official documentation on AI features and websites."
+        },
+        {
+          "type": "subheading",
+          "text": "What should brands do?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of creating separate, repetitive articles for every keyword variation, build content around related search intent."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a digital marketing agency can create:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A detailed guide to technical SEO.",
+            "An article explaining SEO vs GEO.",
+            "A guide to improving AI search visibility.",
+            "A blog about schema markup and structured data.",
+            "FAQs about AI-powered search."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Each article should answer a different question and provide information that genuinely helps the reader."
+        },
+        {
+          "type": "paragraph",
+          "text": "This approach gives Google more useful information to understand your website's subject expertise."
+        },
+        {
+          "type": "heading",
+          "text": "3. Create Answer-Ready Content for AI Overviews and AI Mode"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI-generated answers often pull together information from multiple sources. Therefore, your content should make important information easy to understand."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is where Answer Engine Optimization (AEO) becomes useful."
+        },
+        {
+          "type": "paragraph",
+          "text": "AEO focuses on creating content that directly answers the questions people ask."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here are a few practical ways to improve your content."
+        },
+        {
+          "type": "subheading",
+          "text": "Start sections with direct answers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Don't make readers go through five paragraphs before finding the answer."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Question: What is technical SEO?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Direct answer: Technical SEO focuses on improving a website's crawling, indexing, site structure and technical performance so search engines can access and understand its pages."
+        },
+        {
+          "type": "paragraph",
+          "text": "You can explain the topic in greater detail below this answer."
+        },
+        {
+          "type": "subheading",
+          "text": "Use descriptive headings"
+        },
+        {
+          "type": "paragraph",
+          "text": "Write headings that clearly explain what the section covers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of using \"Benefits\", try \"How AI Mode Changes the Way Users Discover Brands\"."
+        },
+        {
+          "type": "subheading",
+          "text": "Add useful FAQs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Include questions that people genuinely ask about your products, services or industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avoid adding random questions just to increase keyword coverage."
+        },
+        {
+          "type": "subheading",
+          "text": "Use lists and comparison tables"
+        },
+        {
+          "type": "paragraph",
+          "text": "When discussing features, pricing, processes or service differences, organise the information clearly."
+        },
+        {
+          "type": "paragraph",
+          "text": "This makes your content easier for both readers and search systems to understand."
+        },
+        {
+          "type": "paragraph",
+          "text": "Brands looking to improve their organic visibility should also focus on combining traditional SEO with GEO practices. Explore BrandThink's brand solutions to learn more about its digital marketing services."
+        },
+        {
+          "type": "heading",
+          "text": "4. Build Strong E-E-A-T Signals to Earn User Trust"
+        },
+        {
+          "type": "paragraph",
+          "text": "Google uses E-E-A-T to describe four important qualities of helpful content:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Experience: Does the content show first-hand experience?",
+            "Expertise: Does the writer understand the subject?",
+            "Authoritativeness: Is the website recognised as a reliable source?",
+            "Trustworthiness: Can readers trust the information?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "One clarification: E-E-A-T is not a standalone Google ranking algorithm or a single ranking factor. Google's systems use multiple signals to identify helpful and trustworthy content."
+        },
+        {
+          "type": "paragraph",
+          "text": "Still, these qualities matter when creating content that people can rely on."
+        },
+        {
+          "type": "subheading",
+          "text": "How can brands improve E-E-A-T?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Add genuine author information and relevant qualifications.",
+            "Include real product experiences and customer insights.",
+            "Support factual claims with reliable sources.",
+            "Publish original research, case studies and examples.",
+            "Keep important business information accurate.",
+            "Update outdated articles when information changes.",
+            "Make contact details and company information easy to find."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a digital marketing agency can publish a case study explaining how it improved a website's organic traffic."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather than simply claiming that its SEO services work, it can share the original problem, actions taken, results and lessons learned."
+        },
+        {
+          "type": "paragraph",
+          "text": "That gives readers something concrete to evaluate."
+        },
+        {
+          "type": "heading",
+          "text": "5. Focus on Entity Clarity and Brand Mentions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Search engines need to understand what your brand does, which products or services it offers and how it relates to other topics."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is where entity clarity becomes important."
+        },
+        {
+          "type": "paragraph",
+          "text": "An entity is a clearly identifiable person, organisation, product, place or concept."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if your business offers Shopify development, your website should clearly explain:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What Shopify development services you provide.",
+            "Which businesses you work with.",
+            "What problems your services solve.",
+            "Which industries you serve.",
+            "What makes your experience relevant."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "You should also maintain consistent business information across your website, Google Business Profile and relevant third-party platforms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other useful steps include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Maintain accurate Organization and LocalBusiness schema where relevant.",
+            "Create detailed service pages.",
+            "Link related articles and service pages internally.",
+            "Build genuine brand mentions on relevant websites.",
+            "Keep your company name, address and business details consistent."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Schema markup can help search engines understand structured information. Still, adding schema alone does not guarantee AI visibility or inclusion in AI-generated answers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The information should match what users can actually see on your website."
+        },
+        {
+          "type": "paragraph",
+          "text": "Businesses that need help with their online presence can explore BrandThink's SEO and digital marketing services for support with search visibility, content and brand development."
+        },
+        {
+          "type": "heading",
+          "text": "6. Will Traditional Blue-Link SEO Disappear?"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is probably the biggest question for SEO professionals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Will AI Mode replace traditional organic search results?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Not entirely."
+        },
+        {
+          "type": "paragraph",
+          "text": "Traditional blue links still matter because users often want to visit websites, check original sources, compare products and explore information in greater detail."
+        },
+        {
+          "type": "paragraph",
+          "text": "Google's AI features also provide links to supporting websites. This means brands still have opportunities to attract visitors through organic search."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, the way users interact with search results may change."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider these possible differences:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Traditional SEO",
+            "AI Search"
+          ],
+          "rows": [
+            [
+              "Focus on keyword rankings",
+              "Focus on relevant search visibility"
+            ],
+            [
+              "Individual search queries",
+              "Connected, conversational questions"
+            ],
+            [
+              "Website listings",
+              "AI-generated answers with supporting links"
+            ],
+            [
+              "Click-based discovery",
+              "Answer-based discovery and exploration"
+            ],
+            [
+              "Keyword-focused content",
+              "Topic coverage and clear answers"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Brands should not abandon traditional SEO."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead, they should combine keyword research, technical SEO, quality content and brand authority with AEO and GEO practices."
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is to remain discoverable, whether users search through a traditional results page or an AI-generated answer."
+        },
+        {
+          "type": "heading",
+          "text": "7. Seven Practical Areas Brands Should Optimise Next"
+        },
+        {
+          "type": "paragraph",
+          "text": "So, what should businesses actually work on?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here are seven areas worth prioritising."
+        },
+        {
+          "type": "subheading",
+          "text": "1. Search intent and topic coverage"
+        },
+        {
+          "type": "paragraph",
+          "text": "Understand the main questions your audience asks. Build useful content around those questions rather than publishing articles only to target keyword variations."
+        },
+        {
+          "type": "subheading",
+          "text": "2. Answer-ready content"
+        },
+        {
+          "type": "paragraph",
+          "text": "Give direct answers under relevant headings. Use simple explanations, examples and supporting details."
+        },
+        {
+          "type": "subheading",
+          "text": "3. First-hand experience"
+        },
+        {
+          "type": "paragraph",
+          "text": "Share original research, customer experiences, expert opinions and real case studies."
+        },
+        {
+          "type": "subheading",
+          "text": "4. Entity clarity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain your brand, products, services and industry clearly across your website and relevant platforms."
+        },
+        {
+          "type": "subheading",
+          "text": "5. Technical SEO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Check crawling, indexing, internal links, mobile usability, page speed and structured data."
+        },
+        {
+          "type": "subheading",
+          "text": "6. Third-party brand presence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Build genuine mentions through relevant publications, industry websites, expert contributions and community discussions."
+        },
+        {
+          "type": "subheading",
+          "text": "7. AI search visibility tracking"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monitor how your brand appears across Google AI Mode, AI Overviews and other AI search platforms. Track branded and non-branded questions, supporting sources and changes in organic traffic."
+        },
+        {
+          "type": "paragraph",
+          "text": "These activities should work together. Publishing more content without improving its usefulness will not solve visibility problems."
+        },
+        {
+          "type": "heading",
+          "text": "How Should Brands Measure Success in AI Search?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Traditional keyword rankings are still worth tracking, but they don't tell the complete story."
+        },
+        {
+          "type": "paragraph",
+          "text": "Brands should also monitor:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Organic clicks and impressions through Google Search Console.",
+            "Changes in organic traffic through Google Analytics 4.",
+            "Brand mentions across relevant AI search experiences.",
+            "Whether AI-generated answers mention the correct products and services.",
+            "Which website pages appear as supporting sources.",
+            "Leads, enquiries and conversions from organic search."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Google includes traffic from AI Overviews and AI Mode within the overall Web search performance data in Search Console."
+        },
+        {
+          "type": "paragraph",
+          "text": "Therefore, businesses should look at their search performance alongside website engagement and conversions instead of depending on one visibility metric."
+        },
+        {
+          "type": "paragraph",
+          "text": "A brand appearing in an AI answer is useful, but the real question is whether that visibility helps people discover, trust and choose the business."
+        },
+        {
+          "type": "heading",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "type": "subheading",
+          "text": "1. What is Google AI Mode SEO?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Google AI Mode SEO refers to SEO practices that help websites remain discoverable in Google's AI-powered search experiences. It involves strong technical SEO, useful content, clear answers, topical relevance and trustworthy information."
+        },
+        {
+          "type": "subheading",
+          "text": "2. How does query fan-out affect SEO?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Query fan-out allows Google to explore multiple related searches when answering one complex question. As a result, brands should cover relevant subtopics and user questions instead of focusing only on one exact keyword."
+        },
+        {
+          "type": "subheading",
+          "text": "3. Are AI Overviews and AI Mode the same?"
+        },
+        {
+          "type": "paragraph",
+          "text": "No. AI Overviews provide AI-generated summaries for selected searches, while AI Mode offers a more conversational experience for complex questions, deeper exploration and follow-up searches."
+        },
+        {
+          "type": "subheading",
+          "text": "4. Does E-E-A-T help websites appear in AI search results?"
+        },
+        {
+          "type": "paragraph",
+          "text": "E-E-A-T represents experience, expertise, authoritativeness and trustworthiness. Google uses various signals to identify helpful content. Demonstrating these qualities can help build content quality and user trust, although E-E-A-T itself is not a standalone ranking factor."
+        },
+        {
+          "type": "subheading",
+          "text": "5. Will traditional SEO become irrelevant because of AI Mode?"
+        },
+        {
+          "type": "paragraph",
+          "text": "No. Traditional SEO remains important because Google's AI search features rely on its existing search and quality systems. Technical SEO, indexing, relevant content and website authority continue to matter."
+        },
+        {
+          "type": "subheading",
+          "text": "6. Does schema markup improve AI search visibility?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structured data helps search engines understand information on a page. It should accurately represent visible content. Still, there is no special AI Mode schema that guarantees inclusion in AI-generated answers."
+        },
+        {
+          "type": "subheading",
+          "text": "7. How can a business improve its AI search visibility?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Start by improving technical SEO, publishing helpful content, answering relevant questions, demonstrating real expertise and maintaining consistent brand information. Also, monitor brand mentions and supporting links across AI search experiences."
+        },
+        {
+          "type": "heading",
+          "text": "Final Thoughts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Google AI Mode is changing how people discover information, but the basic purpose of SEO hasn't changed. Your website still needs to provide useful information, answer real questions and give people a reason to trust your brand."
+        },
+        {
+          "type": "paragraph",
+          "text": "The biggest shift is that brands now need to think beyond individual keywords."
+        },
+        {
+          "type": "paragraph",
+          "text": "A well-written article, a clear service page, a genuine case study and accurate business information can all help search engines understand what your brand offers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Start by reviewing your existing content. Are you answering the questions your audience actually asks? Does your website explain your expertise clearly? Can people find reliable information about your business?"
+        },
+        {
+          "type": "paragraph",
+          "text": "These are the areas worth working on next."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Need help preparing your brand for AI-first search?**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Explore BrandThink for support with SEO, GEO, content strategy and AI search visibility. Build an AI search strategy that helps your brand stay discoverable as search continues to change."
+        }
+      ]
+    },
+    {
       "category": "Intelligence",
       "categoryColor": "#fbbf24",
       "readTime": "7 min read",
