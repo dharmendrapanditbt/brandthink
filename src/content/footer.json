@@ -7,11 +7,11 @@
   },
   "tagline": "Engineering Attention. Converting Demand. Building growth infrastructure for modern brands ready to scale.",
   "services": [
-    "Martech Solutions",
-    "Brand Solutions",
-    "Media Solutions",
-    "Production & Visuals",
-    "Research Solutions"
+    { "label": "Martech Solutions", "href": "/services/martech-solutions" },
+    { "label": "Brand Solutions", "href": "/services/brand-solutions" },
+    { "label": "Media Solutions", "href": "/services/media-solutions" },
+    { "label": "Production & Visuals", "href": "/services/product-photography-videography" },
+    { "label": "Research Solutions", "href": "/services/research-solutions" }
   ],
   "company": [
     { "label": "About Us", "href": "/about" },

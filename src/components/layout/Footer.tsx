@@ -64,11 +64,14 @@ export default function Footer() {
             </p>
 
             <ul className="space-y-3">
-              {footerLinks.services.map((service) => (
-                <li key={service}>
-                  <span className="text-light-grey transition-colors hover:text-white">
-                    {service}
-                  </span>
+              {footerLinks.services.map((item) => (
+                <li key={item.label}>
+                  <Link
+                    href={item.href}
+                    className="text-light-grey transition-colors hover:text-white"
+                  >
+                    {item.label}
+                  </Link>
                 </li>
               ))}
             </ul>
