@@ -60,10 +60,7 @@ export default async function ServiceDetailPage({
     <>
       <section className="bg-dark-grey px-6 pt-40 pb-16 md:px-12 lg:px-20">
         <div className="mx-auto max-w-4xl">
-          <p
-            className="glitch-hover mb-4 text-xs uppercase tracking-[0.2em] text-bt-red"
-            data-text="Our Services"
-          >
+          <p className="mb-4 text-xs uppercase tracking-[0.2em] text-bt-red">
             Our Services
           </p>
 
