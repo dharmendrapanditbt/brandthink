@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import ServiceAccordion from "@/components/sections/ServiceAccordion";
 import capabilities from "@/content/capabilities.json";
+import { serviceSlug } from "@/lib/services";
 
 export function generateStaticParams() {
-  return capabilities.items.map((item) => ({ slug: item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') }));
+  return capabilities.items.map((item) => ({ slug: serviceSlug(item.title) }));
 }
 
 export async function generateMetadata({
@@ -13,7 +14,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const service = capabilities.items.find((item) => item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') === slug);
+  const service = capabilities.items.find((item) => serviceSlug(item.title) === slug);
 
   if (!service) {
     return { title: "Service Not Found" };
@@ -49,7 +50,7 @@ export default async function ServiceDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const service = capabilities.items.find((item) => item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') === slug);
+  const service = capabilities.items.find((item) => serviceSlug(item.title) === slug);
 
   if (!service) {
     notFound();
@@ -60,9 +61,8 @@ export default async function ServiceDetailPage({
       <section className="bg-dark-grey px-6 pt-40 pb-16 md:px-12 lg:px-20">
         <div className="mx-auto max-w-4xl">
           <p
-            className="glitch-hover mb-4 text-xs uppercase tracking-[0.2em]"
+            className="glitch-hover mb-4 text-xs uppercase tracking-[0.2em] text-bt-red"
             data-text="Our Services"
-            style={{ color: service.accent }}
           >
             Our Services
           </p>
@@ -71,24 +71,9 @@ export default async function ServiceDetailPage({
             {service.title}
           </h1>
 
-          <p className="mb-12 max-w-2xl text-lg leading-relaxed text-light-grey">
+          <p className="max-w-2xl text-lg leading-relaxed text-light-grey">
             {service.description}
           </p>
-
-          <div className="grid gap-4 sm:grid-cols-2">
-            {service.items.map((item: string) => (
-              <div
-                key={item}
-                className="flex items-center gap-3 border border-grey-1 bg-off-grey px-5 py-4 text-sm text-white"
-              >
-                <span
-                  className="h-2 w-2 shrink-0 rounded-full"
-                  style={{ background: service.accent }}
-                />
-                {item}
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -100,23 +85,25 @@ export default async function ServiceDetailPage({
             alt={service.title}
             width={1390}
             height={1080}
-            className="mb-12 w-full object-cover"
+            className="w-full object-cover"
           />
+        </div>
+      </section>
 
-          <div className="flex flex-wrap gap-4">
-            <Link
-              href="/services"
-              className="border border-grey-1 px-6 py-3 text-sm text-white transition-colors hover:bg-off-grey"
-            >
-              ← All Services
-            </Link>
-            <Link
-              href="/contact"
-              className="bg-bt-red px-6 py-3 text-sm text-white"
-            >
-              Work With Us
-            </Link>
-          </div>
+      <section className="bg-off-grey px-6 py-24 md:px-12 lg:px-20">
+        <div className="mx-auto max-w-4xl">
+          <p
+            className="glitch-hover mb-4 text-xs uppercase tracking-[0.2em] text-bt-red"
+            data-text="What We Do"
+          >
+            What We Do
+          </p>
+
+          <h2 className="bebas mb-6 text-4xl uppercase text-white sm:text-5xl">
+            What&apos;s Included
+          </h2>
+
+          <ServiceAccordion items={service.subServices} />
         </div>
       </section>
     </>

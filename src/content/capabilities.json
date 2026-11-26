@@ -24,6 +24,24 @@
         "Building Custom AI Agents & Conversational AI",
         "Social Listening & Attribution",
         "AR/VR & AI Marketing Solutions"
+      ],
+      "subServices": [
+        {
+          "title": "Marketing Automation, CRM & ERP",
+          "description": "We set up and connect marketing automation, CRM and ERP systems so leads, customers and sales data flow through one joined-up process. Routine follow-ups, nurturing and reporting run automatically, freeing your team to focus on growth."
+        },
+        {
+          "title": "Building Custom AI Agents & Conversational AI",
+          "description": "We design and build AI agents and conversational assistants around your business, from answering customer queries to qualifying leads and supporting your team. Each one is shaped around your products, tone and workflows so it feels like part of your brand."
+        },
+        {
+          "title": "Social Listening & Attribution",
+          "description": "We track what people say about your brand, competitors and category, and connect your marketing activity to the results it drives. You get a clear view of what's working, where to invest and what your audience cares about."
+        },
+        {
+          "title": "AR/VR & AI Marketing Solutions",
+          "description": "We create augmented reality, virtual reality and AI-powered experiences that let customers try, explore and interact with your brand in new ways. These experiences make campaigns more memorable and give people a reason to engage and share."
+        }
       ]
     },
     {
@@ -39,6 +57,32 @@
         "Social Media Marketing",
         "GEO & SEO",
         "Influencer Marketing"
+      ],
+      "subServices": [
+        {
+          "title": "Brand Strategy & Positioning",
+          "description": "We define what your brand stands for, who it serves and how it stands apart from competitors. That clarity guides your messaging, visual identity and every marketing decision that follows."
+        },
+        {
+          "title": "Website & App Development",
+          "description": "We design and build responsive websites and apps that reflect your brand and turn visitors into customers. From first wireframe to launch, every page is built for speed, usability and search visibility."
+        },
+        {
+          "title": "Public Relations & ORM",
+          "description": "We shape how your brand is seen through media relations, thought leadership and online reputation management. We monitor conversations, reviews and search results so you can build trust and respond quickly when issues arise."
+        },
+        {
+          "title": "Social Media Marketing",
+          "description": "We plan, create and manage social media content and campaigns that build community and keep your brand front of mind. Every post and campaign is tied to clear goals, from awareness to engagement and enquiries."
+        },
+        {
+          "title": "GEO & SEO",
+          "description": "We improve how your brand appears in search engines and in AI-powered answers, such as Google's AI Mode and AI assistants. Through technical fixes, useful content and authority building, we help the right audience find you."
+        },
+        {
+          "title": "Influencer Marketing",
+          "description": "We find and partner with creators whose audiences match your customers, and run campaigns that feel authentic to both. From creator selection to content and reporting, we manage the full process."
+        }
       ]
     },
     {
@@ -52,6 +96,24 @@
         "Performance Marketing",
         "Marketplace Management (inc. Quick Commerce)",
         "Print, OOH & Mainline Ads"
+      ],
+      "subServices": [
+        {
+          "title": "Media Planning & Buying",
+          "description": "We plan where, when and how your brand should appear, then buy media across digital and traditional channels to reach the right audience efficiently. Every plan is built around your goals and budget."
+        },
+        {
+          "title": "Performance Marketing",
+          "description": "We run paid campaigns across search, social and display that are measured against real outcomes like leads and sales. Campaigns are tracked and optimised continuously so your budget goes to what works."
+        },
+        {
+          "title": "Marketplace Management (inc. Quick Commerce)",
+          "description": "We manage your brand's presence on online marketplaces and quick commerce platforms, from listings and content to advertising and visibility. The goal is simple: help customers find and choose your products where they already shop."
+        },
+        {
+          "title": "Print, OOH & Mainline Ads",
+          "description": "We plan and run print, outdoor (OOH) and mainline advertising that builds broad awareness and trust. Offline campaigns are planned alongside digital so every channel tells the same story."
+        }
       ]
     },
     {
@@ -65,6 +127,24 @@
         "Consumer Insights",
         "Brand & Market Research",
         "Competitor Analysis"
+      ],
+      "subServices": [
+        {
+          "title": "Qualitative & Quantitative Research",
+          "description": "We combine in-depth conversations and open-ended feedback with surveys and data at scale. Qualitative work explains why people behave as they do, and quantitative work shows how many, giving you insight you can act on with confidence."
+        },
+        {
+          "title": "Consumer Insights",
+          "description": "We uncover what your customers need, value and expect, and what drives their decisions. These insights shape sharper positioning, better products and messaging that resonates."
+        },
+        {
+          "title": "Brand & Market Research",
+          "description": "We assess how your brand is perceived and how your market is changing, from awareness and reputation to category trends and opportunities. It gives your strategy a base of facts instead of assumptions."
+        },
+        {
+          "title": "Competitor Analysis",
+          "description": "We study how competing brands position themselves, communicate and reach customers. You see where they are strong, where they leave gaps and where your brand can stand apart."
+        }
       ]
     },
     {
@@ -78,6 +158,24 @@
         "Brand Films & Corporate Videos",
         "Social Media Content Production",
         "Commercial Campaign Shoots"
+      ],
+      "subServices": [
+        {
+          "title": "Product Photography & Videography",
+          "description": "We shoot product photos and videos that show your products clearly and attractively, ready for e-commerce listings, websites, ads and catalogues. Every shot is planned around how and where it will be used."
+        },
+        {
+          "title": "Brand Films & Corporate Videos",
+          "description": "We produce brand films and corporate videos that tell your story, explain what you do and build trust with customers, partners and employees. From concept and script to shoot and edit, we handle the full production."
+        },
+        {
+          "title": "Social Media Content Production",
+          "description": "We create photo and video content made for social platforms, shaped for each format and consistent with your brand, so your channels have a steady flow of on-brand posts."
+        },
+        {
+          "title": "Commercial Campaign Shoots",
+          "description": "We plan and run commercial shoots for advertising campaigns, from concept and casting to production and post-production. The result is campaign visuals that work across digital, print and outdoor media."
+        }
       ]
     }
   ]
