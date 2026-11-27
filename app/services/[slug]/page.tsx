@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import CaseStudiesCTA from "@/components/sections/CaseStudiesCTA";
 import ServiceAccordion from "@/components/sections/ServiceAccordion";
 import capabilities from "@/content/capabilities.json";
 import { serviceSlug } from "@/lib/services";
@@ -58,7 +59,7 @@ export default async function ServiceDetailPage({
 
   return (
     <>
-      <section className="bg-dark-grey px-6 pt-40 pb-16 md:px-12 lg:px-20">
+      <section className="service-page bg-dark-grey px-6 pt-40 pb-16 md:px-12 lg:px-20">
         <div className="mx-auto max-w-4xl">
           <p className="mb-4 text-xs uppercase tracking-[0.2em] text-bt-red">
             Our Services
@@ -101,6 +102,24 @@ export default async function ServiceDetailPage({
           </h2>
 
           <ServiceAccordion items={service.subServices} />
+        </div>
+      </section>
+
+      <section className="bg-off-grey py-24">
+        <div className="mx-auto px-6 text-center md:px-12 lg:px-20">
+          <h2 className="bebas mb-6 text-3xl uppercase text-white sm:text-4xl md:text-5xl">
+            Ready To Become
+            <span className="block text-bt-red">
+              The Next Case Study?
+            </span>
+          </h2>
+
+          <p className="mx-auto mb-10 max-w-xl text-light-grey">
+            No pitches. Just a diagnostic of your current growth
+            system and a clear path forward.
+          </p>
+
+          <CaseStudiesCTA />
         </div>
       </section>
     </>

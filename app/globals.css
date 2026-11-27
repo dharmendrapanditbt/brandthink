@@ -48,6 +48,13 @@ body {
   color: var(--foreground);
 }
 
+/* Service pages: give the page background the footer's dark color, so if
+   Chrome briefly shows it while drawing the animated footer it isn't a
+   white flash. */
+body:has(.service-page) {
+  background: var(--color-dark-grey);
+}
+
 .dark {
   --background: oklch(0.147 0.004 49.3);
   --foreground: oklch(0.986 0.002 67.8);
